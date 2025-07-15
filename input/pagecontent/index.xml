@@ -1,0 +1,38 @@
+<div xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
+
+
+  <blockquote class="stu-note">
+    <p>The specification herewith documented is a working specification, and may not be used for any implementation purposes. 
+    No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
+  </blockquote>
+
+  <a name="scope"></a>
+  <h3>Scope</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+
+
+  <a name="project"></a>
+  <h3>The project</h3>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+
+  <a name="x-versions"></a>
+  <h3>Cross Version Analysis</h3>
+
+{% include cross-version-analysis.xhtml %}
+
+  <a name="global"></a>
+  <h3>Global Profiles</h3>
+
+{% include globals-table.xhtml %}
+
+<a name="ip-statements"></a>
+<h3>IP Statements</h3>
+
+{% include ip-statements.xhtml %}
+
+
+</div>
