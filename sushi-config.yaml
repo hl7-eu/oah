@@ -46,6 +46,8 @@ pages:
 #    title: Examples
   downloads.md:
     title: Downloads
+  IndicatorsOah-map.html:
+    title: IndicatorsOah Relationships
 #  implementation.md:
 #    title: Implementation Considerations
  #  recommendations.md:
@@ -79,6 +81,8 @@ pages:
 menu:
   Home: index.html
   Table of Contents: toc.html
+  Model Maps:
+    IndicatorsOah: IndicatorsOah-map.html
 #  Examples: examples.html
   Artifacts: artifacts.html
   Downloads: downloads.html
