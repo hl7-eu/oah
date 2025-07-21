@@ -1,1 +1,1 @@
- c:/workspace/___Python/env/Scripts/python.exe c:/workspace/___Python/gen-map-diag/run_all_scripts.py -config C:/workspace/hl7eu-hdr/scripts/generateMapDiagramsFiles/config.py
+ c:/workspace/___Python/env/Scripts/python.exe c:/workspace/___Python/gen-map-diag/run_all_scripts.py -config C:/workspace/oah/scripts/generateMapDiagramsFiles/config.py
