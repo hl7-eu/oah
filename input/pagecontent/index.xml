@@ -9,8 +9,11 @@
 
   <a name="scope"></a>
   <h3>Scope</h3>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <p> OneAquaHealth addresses OneHealth and aims to connect the health individuals to the health of the environment, and specifically aquatic ecosystems in the 
+    the context of Urban Health. The OneAquaHealth Environmental Surveillance System aims to introduce human health indicators to the OneAquaHealth Evironmental 
+    Surveillance system. Open Standard APIs will support connectivity among components, open services, and web services. 
+    This HL7 FHIR IG supports interconnecting different components of the OneAquaHealth Environmental Surveillance System with public and personal health indicators.
+    Additionally, the IG takes into account the  European Water Framework Direvice and the Environmental Quality Standards Directive.
   </p>
 
 
