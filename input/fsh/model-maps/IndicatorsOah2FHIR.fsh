@@ -3,10 +3,10 @@ InstanceOf: ConceptMap
 Usage: #definition
 * url = "http://hl7.eu/fhir/ig/oah/ConceptMap/IndicatorsOah2FHIR"
 * name = "IndicatorsOah2FHIR"
-* title = "eHN HDR Model to this guide Map"
+* title = "OAH  Model to this guide Map"
 * status = #draft
 * experimental = true
-* description = """eHN Hospital Discharge Report Model to this guide mapping"""
+* description = """OAH Model to this guide mapping"""
 * group[+].source = "http://hl7.eu/fhir/ig/oah/StructureDefinition/IndicatorsOah"
 * group[=].target = "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
 * group[=].element[+].code = #biological
@@ -14,38 +14,38 @@ Usage: #definition
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[+].code = #biological.macroinvertebreates
-* group[=].element[=].display = "Benthic Macroinvertebrates"
+* group[=].element[+].code = #nan
+* group[=].element[=].display = ""
 * group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "where Observation.code is 'macroinvertebreates'"
-* group[=].element[+].code = #biological.diatomes
-* group[=].element[=].display = "Diatoms (microalgae/phytobenthos)"
+* group[=].element[+].code = #nan
+* group[=].element[=].display = ""
 * group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "where Observation.code is 'diatomes'"
-* group[=].element[+].code = #biological.fishes
-* group[=].element[=].display = "Fish"
+* group[=].element[+].code = #nan
+* group[=].element[=].display = ""
 * group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "where Observation.code is 'fishes'"
-* group[=].element[+].code = #biological.macrophytes
-* group[=].element[=].display = "Macrophytes (aquatic plants)"
+* group[=].element[+].code = #nan
+* group[=].element[=].display = ""
 * group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "where Observation.code is 'macrophytes'"
-* group[=].element[+].code = #biological.riparianVegetation
-* group[=].element[=].display = "Riparian vegetation"
+* group[=].element[+].code = #nan
+* group[=].element[=].display = ""
 * group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "where Observation.code is 'riparianVegetation'"
-* group[=].element[+].code = #biological.microbiomes
-* group[=].element[=].display = "Microbiomes/Biofilms"
+* group[=].element[+].code = #nan
+* group[=].element[=].display = ""
 * group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
