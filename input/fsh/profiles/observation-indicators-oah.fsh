@@ -4,18 +4,8 @@ Id: observation-indicators-oah
 Title: "Observation: OAH Indicators"
 Description: "Profile for OneAquaHealth project indicators."
 
-* status ^short = "Observation status"
-
-// add category 
-
-/* * category ^slicing.discriminator.type = #value
-* category ^slicing.discriminator.path = "$this"
-* category ^slicing.rules = #open
-* category contains
-    SocialHistory 1..1  
-    // and   SDOH 0..* 
-* category[SocialHistory] = $observation-category#social-history
-* category[SocialHistory] ^requirements = "Used for filtering that this is a social history observation." */
+* status = #final
+* status ^comment = "The status of the observation."
 
 * code 1..
 * code from OahIndicatorsVs (preferred)
