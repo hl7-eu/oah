@@ -50,6 +50,8 @@ Alias: $specimen-feature-type-r5 = http://hl7.org/fhir/5.0/StructureDefinition/e
 Alias: $workflow-supportingInfo = http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo
 Alias: $medicationRequest-effectiveDosePeriod-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod
 
+Alias: $library-copyrightLabel-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Library.copyrightLabel
+Alias: $licenceCodeable = http://hl7.org/fhir/uv/fhir-for-fair/StructureDefinition/licenceCodeable
 
 Alias: $ihe-ext-medication-device = https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-device
 Alias: $ihe-ext-medication-strengthsubstance = https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance

@@ -1,0 +1,21 @@
+@startuml
+hide circle
+hide stereotype
+hide members
+hide methods
+skinparam linetype ortho
+skinparam class {
+BackgroundColor<<LogicalModel>> #APPLICATION
+BackgroundColor<<Profile>> #TECHNOLOGY
+}
+legend right
+| <#APPLICATION>  Logical Model |
+| <#TECHNOLOGY>  Profile |
+endlegend
+class "StructuredIndicator" <<LogicalModel>> [[StructureDefinition-StructuredIndicator.html]]
+note top #PaleTurquoise [[ConceptMap-StructuredIndicatorOah2FHIR.html]]
+Concept Map
+endnote
+class "observation-with-component-oah" <<Profile>> [[StructureDefinition-observation-with-component-oah.html]]
+"StructuredIndicator" <|. "observation-with-component-oah"
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+hide circle
+hide stereotype
+hide members
+hide methods
+skinparam linetype ortho
+skinparam class {
+BackgroundColor<<LogicalModel>> #APPLICATION
+BackgroundColor<<Profile>> #TECHNOLOGY
+}
+legend right
+| <#APPLICATION>  Logical Model |
+| <#TECHNOLOGY>  Profile |
+endlegend
+class "SimpleIndicator" <<LogicalModel>> [[StructureDefinition-SimpleIndicator.html]]
+note top #PaleTurquoise [[ConceptMap-SimpleIndicatorOah2FHIR.html]]
+Concept Map
+endnote
+class "observation-indicators-oah" <<Profile>> [[StructureDefinition-observation-indicators-oah.html]]
+"SimpleIndicator" <|. "observation-indicators-oah"
+@enduml

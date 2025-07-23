@@ -18,4 +18,7 @@ Concept Map
 endnote
 class "observation-indicators-oah" <<Profile>> [[StructureDefinition-observation-indicators-oah.html]]
 "IndicatorsOah" <|. "observation-indicators-oah"
+class "observation-with-component-oah" <<Profile>> [[StructureDefinition-observation-with-component-oah.html]]
+"IndicatorsOah" <|. "observation-with-component-oah"
+"observation-indicators-oah" -d[hidden]-> "observation-with-component-oah"
 @enduml

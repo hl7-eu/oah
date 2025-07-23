@@ -19,9 +19,10 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-# dependencies:
+dependencies:
 #  hl7.fhir.uv.ips: 1.1.0 
-#  hl7.fhir.extensions.r5: 4.0.1
+  hl7.fhir.extensions.r5: 4.0.1
+  hl7.fhir.uv.fhir-for-fair: 1.0.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
@@ -52,6 +53,13 @@ pages:
 #    title: Implementation Considerations
  #  recommendations.md:
 #    title: Recommendations
+  SimpleIndicator-map.html:
+    title: SimpleIndicator Relationships
+  StructuredIndicator-map.html:
+    title: StructuredIndicator Relationships
+  IndicatorsOah-map.html:
+    title: IndicatorsOah Relationships
+
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -81,9 +89,10 @@ pages:
 menu:
   Home: index.html
   Table of Contents: toc.html
-#  Model Maps:
-#    IndicatorsOah: IndicatorsOah-map.html
-#  Examples: examples.html
+  Model Maps:
+    SimpleIndicator: SimpleIndicator-map.html
+    StructuredIndicator: StructuredIndicator-map.html
+    IndicatorsOah: IndicatorsOah-map.html
   Artifacts: artifacts.html
   Downloads: downloads.html
   

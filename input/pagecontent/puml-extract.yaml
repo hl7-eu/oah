@@ -1,4 +1,10 @@
 IndicatorsOah: IndicatorsOah-map.html
+SimpleIndicator: SimpleIndicator-map.html
+StructuredIndicator: StructuredIndicator-map.html
 
   IndicatorsOah-map.html:
     title: IndicatorsOah Relationships
+  SimpleIndicator-map.html:
+    title: SimpleIndicator Relationships
+  StructuredIndicator-map.html:
+    title: StructuredIndicator Relationships
