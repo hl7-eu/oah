@@ -1,1 +1,1 @@
- c:/workspace/___Python/env/Scripts/python.exe c:/workspace/___Python/fsh-excel-fsh/excel-to-fsh.py --config /workspace/oah/models-src/config.ini
+ c:/workspace/___Python/env/Scripts/python.exe excel-to-fsh.py --config /workspace/oah/models-src/config.ini

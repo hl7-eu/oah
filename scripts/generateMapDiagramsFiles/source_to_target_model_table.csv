@@ -1,0 +1,2 @@
+ConceptMap ID,Source Profile,Target Profile
+IndicatorsOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/IndicatorsOah,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
