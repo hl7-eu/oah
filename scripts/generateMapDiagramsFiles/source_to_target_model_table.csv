@@ -1,4 +1,7 @@
 ConceptMap ID,Source Profile,Target Profile
+DataSetOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/DataSet,Attachment
+DataSetOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/DataSet,DataRequirement
+DataSetOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/DataSet,http://hl7.eu/fhir/ig/oah/StructureDefinition/library-oah
 IndicatorsOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/IndicatorsOah,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
 IndicatorsOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/IndicatorsOah,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-with-component-oah
 SimpleIndicatorOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/SimpleIndicator,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah

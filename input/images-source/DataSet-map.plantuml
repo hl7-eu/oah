@@ -1,0 +1,27 @@
+@startuml
+hide circle
+hide stereotype
+hide members
+hide methods
+skinparam linetype ortho
+skinparam class {
+BackgroundColor<<LogicalModel>> #APPLICATION
+BackgroundColor<<Profile>> #TECHNOLOGY
+}
+legend right
+| <#APPLICATION>  Logical Model |
+| <#TECHNOLOGY>  Profile |
+endlegend
+class "DataSet" <<LogicalModel>> [[StructureDefinition-DataSet.html]]
+note top #PaleTurquoise [[ConceptMap-DataSetOah2FHIR.html]]
+Concept Map
+endnote
+class "Attachment" <<Profile>> [[StructureDefinition-Attachment.html]]
+"DataSet" <|. "Attachment"
+class "DataRequirement" <<Profile>> [[StructureDefinition-DataRequirement.html]]
+"DataSet" <|. "DataRequirement"
+"Attachment" -d[hidden]-> "DataRequirement"
+class "library-oah" <<Profile>> [[StructureDefinition-library-oah.html]]
+"DataSet" <|. "library-oah"
+"DataRequirement" -d[hidden]-> "library-oah"
+@enduml
