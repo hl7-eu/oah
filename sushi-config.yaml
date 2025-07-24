@@ -4,7 +4,7 @@ name:  OneAquaHealthIg
 title: OneAquaHealth Project
 description: This guide is the entry point for the OneAquaHealth project FHIR IGs. It includes also artefacts that are common to all the experimentaion bubbles.
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 0.1.0-ci-build
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -47,8 +47,6 @@ pages:
 #    title: Examples
   downloads.md:
     title: Downloads
-#  IndicatorsOah-map.html:
-#    title: IndicatorsOah Relationships
 #  implementation.md:
 #    title: Implementation Considerations
  #  recommendations.md:

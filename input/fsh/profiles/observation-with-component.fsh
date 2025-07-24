@@ -4,7 +4,7 @@ Id: observation-with-component-oah
 Title: "Observation: OAH indicators with Components"
 Description: "Profile for OneAquaHealth project macrophytes observations."
 
-* code from ObservationTypeWithComponentOahVs (required)
+* code from ObservationTypeWithComponentOahVs (extensible)
 * value[x] 0..0
 * component 1..
 * component insert SlicePerValue (code, Slice per type of measure, Slice per type of measure)

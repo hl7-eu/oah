@@ -1,13 +1,13 @@
-DataSet: DataSet-map.html
 IndicatorsOah: IndicatorsOah-map.html
 StructuredIndicator: StructuredIndicator-map.html
 SimpleIndicator: SimpleIndicator-map.html
+DataSet: DataSet-map.html
 
-  DataSet-map.html:
-    title: DataSet Relationships
   IndicatorsOah-map.html:
     title: IndicatorsOah Relationships
   StructuredIndicator-map.html:
     title: StructuredIndicator Relationships
   SimpleIndicator-map.html:
     title: SimpleIndicator Relationships
+  DataSet-map.html:
+    title: DataSet Relationships
