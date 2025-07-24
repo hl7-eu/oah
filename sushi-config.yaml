@@ -59,6 +59,8 @@ pages:
     title: IndicatorsOah Relationships
   DataSet-map.html:
     title: DataSet Relationships
+  Sample-map.html:
+    title: Sample Relationships
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -92,7 +94,8 @@ menu:
     SimpleIndicator: SimpleIndicator-map.html
     StructuredIndicator: StructuredIndicator-map.html
     IndicatorsOah: IndicatorsOah-map.html
-    DataSet: DataSet-map.html
+    Sample: Sample-map.html
+    DataSet: DataSet-map.html    
   Artifacts: artifacts.html
   Downloads: downloads.html
   

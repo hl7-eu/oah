@@ -1,0 +1,27 @@
+@startuml
+hide circle
+hide stereotype
+hide members
+hide methods
+skinparam linetype ortho
+skinparam class {
+BackgroundColor<<LogicalModel>> #APPLICATION
+BackgroundColor<<Profile>> #TECHNOLOGY
+}
+legend right
+| <#APPLICATION>  Logical Model |
+| <#TECHNOLOGY>  Profile |
+endlegend
+class "Sample" <<LogicalModel>> [[StructureDefinition-Sample.html]]
+note top #PaleTurquoise [[ConceptMap-SampleOah2FHIR.html]]
+Concept Map
+endnote
+class "location-oah" <<Profile>> [[StructureDefinition-location-oah.html]]
+"Sample" <|. "location-oah"
+class "observation-indicators-oah" <<Profile>> [[StructureDefinition-observation-indicators-oah.html]]
+"Sample" <|. "observation-indicators-oah"
+"location-oah" -d[hidden]-> "observation-indicators-oah"
+class "specimen-oah" <<Profile>> [[StructureDefinition-specimen-oah.html]]
+"Sample" <|. "specimen-oah"
+"observation-indicators-oah" -d[hidden]-> "specimen-oah"
+@enduml
