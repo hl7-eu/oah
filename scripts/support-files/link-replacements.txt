@@ -1,0 +1,2 @@
+StructureDefinition-Attachment.html=https://hl7.org/fhir/R4/datatypes.html#Attachment
+StructureDefinition-DataRequirement.html=https://hl7.org/fhir/R4/datatypes.html#DataRequirement

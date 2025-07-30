@@ -123,13 +123,23 @@ goto end
 
 :fixLinks
 echo --- Fixing links in -map.plantuml files ---
-for %%F in ("%INPUT_IMAGES%\*-map.plantuml") do (
-    echo Processing %%~nxF
-    powershell -Command "(Get-Content -Raw \"%%F\") -replace 'StructureDefinition-Attachment.html', 'https://hl7.org/fhir/R4/datatypes.html#Attachment' -replace 'StructureDefinition-DataRequirement.html', 'https://hl7.org/fhir/R4/datatypes.html#DataRequirement' | Set-Content \"%%F.tmp\""
-    move /Y "%%F.tmp" "%%F" >nul
+
+if not defined REPLACEMENTS_FILE (
+    echo ERROR: REPLACEMENTS_FILE variable not set.
+    goto end
 )
+
+if not exist "%REPLACEMENTS_FILE%" (
+    echo ERROR: Replacements file not found: %REPLACEMENTS_FILE%
+    goto end
+)
+
+"%PYTHON_ENV%" "%BIN_DIR%\fix_links.py" "%INPUT_IMAGES%" "%REPLACEMENTS_FILE%"
+
 echo Done.
 goto :eof
+
+
 
 :end
 echo.
