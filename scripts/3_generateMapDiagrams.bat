@@ -1,1 +1,0 @@
- c:/workspace/___Python/env/Scripts/python.exe gen-map-diag/run_all_scripts.py -config generateMapDiagramsFiles/config.py
