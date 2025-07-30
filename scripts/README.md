@@ -1,100 +1,149 @@
+# Model Map Utilities
 
-# Model Map Generator
+This repository provides a set of batch and Python scripts to transform models, generate diagrams, run SUSHI, and fix hyperlinks. All paths and tool configurations are centralized via `config.bat` for easier reuse and portability.
 
-This utility generates model maps by executing a Python script using paths and settings defined in a centralized configuration file (`config.bat`).
+---
 
-## 🧾 Prerequisites
-
-- Python environment with required dependencies installed
-- `config.bat` properly configured
-- Scripts and input folders are in the expected relative structure
-
-## 📁 Directory Structure
+## 📁 Project Structure
 
 ```
-
 project-root/
 │
 ├── input/
-│   ├── model-maps/         # Input data for maps
-│   └── models/             # Input model definitions
+│   ├── images-source/        # PlantUML diagram input files
+│   ├── model-maps/           # Source model map data (Run 1)
+│   ├── models/               # Input models (Run 1)
+│   └── pagecontent/          # Generated XML content (Run 2)
 │
 ├── output/
-│   └── model-maps/         # Output directory for generated model maps
+│   └── model-maps/           # Output from model map generation
 │
+├── models-src/               # Excel input (Run 1)
 ├── scripts/
-│   └── maps/
-│       └── generate-model-maps.py
+│   ├── bin/
+│   │   ├── excel-to-fsh.py
+│   │   ├── run_all_scripts.py
+│   │   └── fix_links.py      # ✅ Python replacement for fixing links
+│   └── config/
+│       └── config.bat
 │
-├── config.bat
-└── gen\_model\_maps.bat
+├── support-files/
+│   └── link-replacements.txt # ✅ Link mappings for Run 4
+│
+└── gen_model_maps.bat        # ✅ Main runner script
+```
 
-````
+---
 
 ## ⚙️ Configuration
 
-The script relies on `config.bat` to define key paths and the Python interpreter. A typical `config.bat` might look like this:
+All paths and tools are configured in:
+
+```
+scripts/config/config.bat
+```
+
+A typical example:
 
 ```bat
-REM === config.bat ===
-
-REM Set project root relative to config file
+REM === Project root
 for %%i in ("%~dp0..\..") do set "PROJECT_DIR=%%~fi"
 
-REM Python environment
+REM === Python environment
 set PYTHON_ENV=c:\workspace\___Python\env\Scripts\python.exe
 
-REM Script directories
-set SCRIPTS_DIR=%PROJECT_DIR%\scripts
-set BIN_DIR=%SCRIPTS_DIR%\bin
-
-REM Optional configuration
-set DIAG_CONFIG=%SCRIPTS_DIR%\config\config.py
-
-REM Input/output directories
+REM === Input/output directories
 set INPUT_IMAGES=%PROJECT_DIR%\input\images-source
-set INPUT_PAGECONTENT=%PROJECT_DIR%\input\pagecontent
-set OUTPUT_CSV=%SCRIPTS_DIR%\generateMapDiagramsFiles
+set OUTPUT_CSV=%PROJECT_DIR%\scripts\support-files
+set INPUT_DIR=%PROJECT_DIR%\models-src
+set OUTPUT_DIR=%PROJECT_DIR%\input\fsh\model-maps
 
-REM For model map generation
-set INPUT_DIR=%PROJECT_DIR%\input\model-maps
-set INPUT_MODELS=%PROJECT_DIR%\input\models
-set OUTPUT_DIR=%PROJECT_DIR%\output\model-maps
-````
+REM === Link replacement config for Run 4
+set REPLACEMENTS_FILE=%PROJECT_DIR%\support-files\link-replacements.txt
+```
+
+---
 
 ## 🚀 Usage
 
-Once everything is configured:
-
-1. Open a terminal (cmd).
-2. Navigate to the project root.
-3. Run the batch script:
+Run the main batch file interactively:
 
 ```cmd
 gen_model_maps.bat
 ```
 
-This will:
+You’ll be prompted to select one of the following:
 
-* Call `config.bat` to initialize environment variables.
-* Run the Python script with paths derived from those variables.
-* Generate model maps in the output directory specified in `config.bat`.
+- `1` - Run `gen-fsh-from-xls`
+- `2` - Clean old files and run SUSHI
+- `3` - Generate diagrams
+- `4` - ✅ Fix links in `*-map.plantuml` files using a Python script
+- `5` - Run scripts 1 to 3
+- `6` - Run everything (1–4)
 
-## 🛠️ Customization
+You can also specify a custom config file:
 
-To change input/output folders or Python environment:
-
-* Edit `config.bat` accordingly.
-* No changes needed in `gen_model_maps.bat`.
-
-## 🧹 Output
-
-Generated files will appear in the directory defined by:
-
-```bat
-set OUTPUT_DIR=...
+```cmd
+gen_model_maps.bat -c config\your-custom-config.bat
 ```
 
-from `config.bat`.
+---
 
+## 🔗 Script 4: Fix Links in PlantUML Files
 
+This script replaces relative references (like `StructureDefinition-XYZ.html`) in `*-map.plantuml` files with canonical URLs.
+
+### Configuration
+
+Replacements are defined in:
+
+```
+support-files/link-replacements.txt
+```
+
+Example format:
+
+```
+StructureDefinition-Attachment.html=https://hl7.org/fhir/R4/datatypes.html#Attachment
+StructureDefinition-DataRequirement.html=https://hl7.org/fhir/R4/datatypes.html#DataRequirement
+```
+
+### How It Works
+
+- The script reads all `*-map.plantuml` files in the `input/images-source/` folder.
+- It applies all replacements defined in the text file.
+- It rewrites the files in-place (using a `.tmp` file under the hood).
+
+### File: `scripts/bin/fix_links.py`
+
+This script is called from `gen_model_maps.bat` using:
+
+```cmd
+"%PYTHON_ENV%" "%BIN_DIR%\fix_links.py" "%INPUT_IMAGES%" "%REPLACEMENTS_FILE%"
+```
+
+---
+
+## 🧪 Requirements
+
+- Python 3.x
+- SUSHI installed and available in `PATH`
+- A configured Python environment path in `config.bat`
+
+---
+
+## 📞 Help
+
+Run `gen_model_maps.bat -h` for usage help.
+
+```
+Usage: gen_model_maps.bat [-c config\your-config.bat]
+
+Options:
+  -c <file>     Use custom configuration file
+  -h            Show this help message
+
+If no -c option is provided, uses default: config\config.bat
+```
+
+---
