@@ -125,19 +125,32 @@ Description: \"\"\"{row['Description']}\"\"\"
 
 # Main function
 def main():
-    # Argument parser to optionally take a config file path
+    # Argument parser to optionally take config and explicit directories
     parser = argparse.ArgumentParser(description='Generate FSH files from Excel.')
-    parser.add_argument('--config', default='fsh-excel-fsh/config.ini', help='Path to the config file (default: fsh-excel-fsh/config.ini)')
-    
-    # Parse command-line arguments
+    parser.add_argument('--config', default=None, help='Path to the config file (optional)')
+    parser.add_argument('--input', default=None, help='Input directory for Excel files')
+    parser.add_argument('--output', default=None, help='Output directory for FSH files')
     args = parser.parse_args()
 
-    # Load the config file (default or custom specified at runtime)
-    config = load_config(args.config)
-    
-    input_directory = config['input_directory']
-    output_directory = config['output_directory']
-    
+    # Step 1: Set default values
+    input_directory = "input"
+    output_directory = "output"
+
+    # Step 2: If config is provided or default assumed, try to load it
+    if args.config:
+        try:
+            config = load_config(args.config)
+            input_directory = config.get('input_directory', input_directory)
+            output_directory = config.get('output_directory', output_directory)
+        except Exception as e:
+            print(f"Warning: Could not load config file: {e}")
+
+    # Step 3: Override with CLI arguments if given
+    if args.input:
+        input_directory = args.input
+    if args.output:
+        output_directory = args.output
+
     # Ensure output directory exists
     os.makedirs(output_directory, exist_ok=True)
 
