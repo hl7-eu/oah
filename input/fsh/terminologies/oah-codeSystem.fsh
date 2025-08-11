@@ -69,6 +69,13 @@ Description: """This is a temporary code system defined to collect concepts expe
 * #fish "Fish" "Fish" 
 * #amphibians "Amphibians" "Amphibians" 
 
+* #ndci "Normalized Difference Chlorophyll Index (NDCI)"
+* #mci "Maximum Chlorophyll Index (MCI)"
+* #bwdrvi "Blue Wide Dynamic Range Vegetation Index (BWDRVI)"
+* #evi "Enhanced Vegetation Index (EVI)"
+* #ndvi "Normalized Difference Vegetation Index (NDVI)"
+* #ndwi "Normalized Difference Water Index (NDWI)"
+
 // coded results
 
 * #absent "Absent" "Absent"
