@@ -85,7 +85,7 @@ Description: """This is a temporary code system defined to collect concepts expe
 * #glai "Green Leaf Area Index (GLAI)"
 * #fapar "Fraction of Absorbed PAR (FAPAR)"
 * #ndwi "Normalized Difference Water Index (NDWI)"
-* #mndwi "Modified Normalized Difference Water Index (MNDWI)"
+* #mndwi "Modified Normalized Difference Water Index (mNDWI)"
 * #andwi "Augmented Normalized Difference Water Index (ANDWI)"
 * #s2wi "Sentinel-2 Water Index (S2WI)"
 * #lswi "Land Surface Water Index (LSWI)"
