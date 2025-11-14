@@ -21,7 +21,7 @@ Description: """This is a temporary code system defined to collect concepts expe
 // add specialized concept for the Diatoms count 
 * #fishes "Fish" "Fish"
 // add specialized concept for the fish count 
-* #macrophytes "Macrophytes (aquatic plants)" "Macrophytes (aquatic plants)"
+* #macrophytes "Macrophytes" "Macrophytes (aquatic plants)"
 
 * #liveworts "Liveworts/mosses/lichens" "Liveworts/mosses/lichens"
 * #broad-leaved-herbs "Emergent broad-leaved herbs" "Emergent broad-leaved herbs"

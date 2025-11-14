@@ -1,0 +1,44 @@
+<div xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
+
+
+  <blockquote class="stu-note">
+    <p>The specification herewith documented is a working specification, and may not be used for any implementation purposes. 
+    No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
+  </blockquote>
+
+  <a name="scope"></a>
+  <h3>Scope</h3>
+  <p> OneAquaHealth addresses One Health and aims to connect the health of individuals to the health of aquatic ecosystems in the context of Urban Health. The OneAquaHealth Environmental Surveillance System aims to introduce human health indicators to the OneAquaHealth Environmental   Surveillance system. Open Standard APIs will support connectivity among components, open services, and web services.     
+    This HL7 FHIR IG supports interconnecting different components of the OneAquaHealth Environmental Surveillance System with public and personal health indicators through open APIs.     
+    The IG aligns with developments related to the  European Water Framework Directive and the Environmental Quality Standards Directive. 
+  </p>
+
+
+  <a name="project"></a>
+  <h3>The OneAquaHealth project and its objectives</h3>
+
+  <p> Aquatic ecosystems provide diverse habitats and support biodiversity and ecosystem services that are essential to life on Earth. 
+    However, aquatic urban ecosystems often become polluted by garbage and noise, and more. 
+    Their space decreases and their ecosystems are threatened, leading to deteriorating health conditions for humans, animals and plants. 
+    In this context, the EU-funded OneAquaHealth project will showcase the importance of these ecosystems for human mental and physical health while also providing a novel AI-based environmental surveillance system to monitor and protect these places.
+OneAquaHealth aims to demonstrate that the health of freshwater ecosystems and human health and wellbeing in urban contexts are highly interconnected as improving one results in the improvement of the other, reestablishing the balance between nature and humans. To this aim, OneAquaHealth will promote environmental monitoring of early warning indicators that can assess that balance. It will provide decision-makers with a AI-based Environmental Surveillance System able to support adequate and timely decisions and providing effective recovery measures of aquatic ecosystems health (and consequently human health) adequate for different scenarios, including climate changes. 
+  OneAquaHealth will involve all relevant stakeholders in the process raising their awareness to the importance of urban streams and rivers and supporting them with adequate digital tools to guarantee environmental monitoring beyond the project duration.
+  </p>
+  <a name="x-versions"></a>
+  <h3>Cross Version Analysis</h3>
+
+{% include cross-version-analysis.xhtml %}
+
+  <a name="global"></a>
+  <h3>Global Profiles</h3>
+
+{% include globals-table.xhtml %}
+
+  <a name="ip-statements"></a>
+  <h3>IP Statements</h3>
+
+{% include ip-statements.xhtml %}
+
+
+</div>
