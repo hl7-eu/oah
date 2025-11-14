@@ -7,4 +7,5 @@ Description: """This Value Set is used to identify the observation types with th
 
 * TemporaryOahSystem#macrophytes "Macrophytes"
 * TemporaryOahSystem#riparianVegetation "Riparian Vegetation"
+* TemporaryOahSystem#nutrients "Nutrients"
 
