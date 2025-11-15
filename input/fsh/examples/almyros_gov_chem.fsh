@@ -7,7 +7,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#aluminium-dissolved "Aluminium dissolved"
+* code = TemporaryOahSystem#aluminium-dissolved "Aluminium dissolved"
 * code.text = "Aluminium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -29,7 +29,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#aluminium-dissolved "Aluminium dissolved"
+* code = TemporaryOahSystem#aluminium-dissolved "Aluminium dissolved"
 * code.text = "Aluminium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -51,7 +51,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#aluminium-dissolved "Aluminium dissolved"
+* code = TemporaryOahSystem#aluminium-dissolved "Aluminium dissolved"
 * code.text = "Aluminium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -73,7 +73,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#aluminium-dissolved "Aluminium dissolved"
+* code = TemporaryOahSystem#aluminium-dissolved "Aluminium dissolved"
 * code.text = "Aluminium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -95,7 +95,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#aluminium-dissolved "Aluminium dissolved"
+* code = TemporaryOahSystem#aluminium-dissolved "Aluminium dissolved"
 * code.text = "Aluminium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -117,7 +117,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ammonium "Ammonium"
+* code = TemporaryOahSystem#ammonium "Ammonium"
 * code.text = "Ammonium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -141,7 +141,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ammonium "Ammonium"
+* code = TemporaryOahSystem#ammonium "Ammonium"
 * code.text = "Ammonium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -165,7 +165,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ammonium "Ammonium"
+* code = TemporaryOahSystem#ammonium "Ammonium"
 * code.text = "Ammonium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -189,7 +189,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ammonium "Ammonium"
+* code = TemporaryOahSystem#ammonium "Ammonium"
 * code.text = "Ammonium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -213,7 +213,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ammonium "Ammonium"
+* code = TemporaryOahSystem#ammonium "Ammonium"
 * code.text = "Ammonium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -237,7 +237,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ammonium "Ammonium"
+* code = TemporaryOahSystem#ammonium "Ammonium"
 * code.text = "Ammonium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2015-01-01"
@@ -259,7 +259,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#arsenic-dissolved "Arsenic dissolved"
+* code = TemporaryOahSystem#arsenic-dissolved "Arsenic dissolved"
 * code.text = "Arsenic dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -281,7 +281,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#arsenic-dissolved "Arsenic dissolved"
+* code = TemporaryOahSystem#arsenic-dissolved "Arsenic dissolved"
 * code.text = "Arsenic dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -303,7 +303,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#arsenic-dissolved "Arsenic dissolved"
+* code = TemporaryOahSystem#arsenic-dissolved "Arsenic dissolved"
 * code.text = "Arsenic dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -325,7 +325,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#arsenic-dissolved "Arsenic dissolved"
+* code = TemporaryOahSystem#arsenic-dissolved "Arsenic dissolved"
 * code.text = "Arsenic dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -347,7 +347,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#arsenic-dissolved "Arsenic dissolved"
+* code = TemporaryOahSystem#arsenic-dissolved "Arsenic dissolved"
 * code.text = "Arsenic dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -369,7 +369,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#cadmium-dissolved "Cadmium dissolved"
+* code = TemporaryOahSystem#cadmium-dissolved "Cadmium dissolved"
 * code.text = "Cadmium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -391,7 +391,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#cadmium-dissolved "Cadmium dissolved"
+* code = TemporaryOahSystem#cadmium-dissolved "Cadmium dissolved"
 * code.text = "Cadmium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -413,7 +413,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#cadmium-dissolved "Cadmium dissolved"
+* code = TemporaryOahSystem#cadmium-dissolved "Cadmium dissolved"
 * code.text = "Cadmium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -435,7 +435,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#cadmium-dissolved "Cadmium dissolved"
+* code = TemporaryOahSystem#cadmium-dissolved "Cadmium dissolved"
 * code.text = "Cadmium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -457,7 +457,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#cadmium-dissolved "Cadmium dissolved"
+* code = TemporaryOahSystem#cadmium-dissolved "Cadmium dissolved"
 * code.text = "Cadmium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -479,7 +479,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#calcium "Calcium"
+* code = TemporaryOahSystem#calcium "Calcium"
 * code.text = "Calcium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -503,7 +503,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#calcium "Calcium"
+* code = TemporaryOahSystem#calcium "Calcium"
 * code.text = "Calcium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -527,7 +527,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#calcium "Calcium"
+* code = TemporaryOahSystem#calcium "Calcium"
 * code.text = "Calcium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -551,7 +551,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#carbonates "Carbonates"
+* code = TemporaryOahSystem#carbonates "Carbonates"
 * code.text = "Carbonates"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -575,7 +575,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#carbonates "Carbonates"
+* code = TemporaryOahSystem#carbonates "Carbonates"
 * code.text = "Carbonates"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -599,7 +599,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#carbonates "Carbonates"
+* code = TemporaryOahSystem#carbonates "Carbonates"
 * code.text = "Carbonates"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -623,7 +623,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chloride "Chloride"
+* code = TemporaryOahSystem#chloride "Chloride"
 * code.text = "Chloride"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -647,7 +647,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chloride "Chloride"
+* code = TemporaryOahSystem#chloride "Chloride"
 * code.text = "Chloride"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -671,7 +671,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chloride "Chloride"
+* code = TemporaryOahSystem#chloride "Chloride"
 * code.text = "Chloride"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -695,7 +695,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chloride "Chloride"
+* code = TemporaryOahSystem#chloride "Chloride"
 * code.text = "Chloride"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -719,7 +719,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chloride "Chloride"
+* code = TemporaryOahSystem#chloride "Chloride"
 * code.text = "Chloride"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -743,7 +743,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chloride "Chloride"
+* code = TemporaryOahSystem#chloride "Chloride"
 * code.text = "Chloride"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2015-01-01"
@@ -765,7 +765,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chromium-6-plus "Chromium 6+"
+* code = TemporaryOahSystem#chromium-6-plus "Chromium 6+"
 * code.text = "Chromium 6+"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -787,7 +787,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chromium-6-plus "Chromium 6+"
+* code = TemporaryOahSystem#chromium-6-plus "Chromium 6+"
 * code.text = "Chromium 6+"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -809,7 +809,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chromium-6-plus "Chromium 6+"
+* code = TemporaryOahSystem#chromium-6-plus "Chromium 6+"
 * code.text = "Chromium 6+"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -831,7 +831,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chromium-6-plus "Chromium 6+"
+* code = TemporaryOahSystem#chromium-6-plus "Chromium 6+"
 * code.text = "Chromium 6+"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -853,7 +853,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chromium-6-plus "Chromium 6+"
+* code = TemporaryOahSystem#chromium-6-plus "Chromium 6+"
 * code.text = "Chromium 6+"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -875,7 +875,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chromium-dissolved "Chromium dissolved"
+* code = TemporaryOahSystem#chromium-dissolved "Chromium dissolved"
 * code.text = "Chromium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -897,7 +897,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chromium-dissolved "Chromium dissolved"
+* code = TemporaryOahSystem#chromium-dissolved "Chromium dissolved"
 * code.text = "Chromium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -919,7 +919,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chromium-dissolved "Chromium dissolved"
+* code = TemporaryOahSystem#chromium-dissolved "Chromium dissolved"
 * code.text = "Chromium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -941,7 +941,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#chromium-dissolved "Chromium dissolved"
+* code = TemporaryOahSystem#chromium-dissolved "Chromium dissolved"
 * code.text = "Chromium dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -963,7 +963,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#copper-dissolved "Copper dissolved"
+* code = TemporaryOahSystem#copper-dissolved "Copper dissolved"
 * code.text = "Copper dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -985,7 +985,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#copper-dissolved "Copper dissolved"
+* code = TemporaryOahSystem#copper-dissolved "Copper dissolved"
 * code.text = "Copper dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -1007,7 +1007,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#copper-dissolved "Copper dissolved"
+* code = TemporaryOahSystem#copper-dissolved "Copper dissolved"
 * code.text = "Copper dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -1029,7 +1029,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#copper-dissolved "Copper dissolved"
+* code = TemporaryOahSystem#copper-dissolved "Copper dissolved"
 * code.text = "Copper dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -1051,7 +1051,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#copper-dissolved "Copper dissolved"
+* code = TemporaryOahSystem#copper-dissolved "Copper dissolved"
 * code.text = "Copper dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -1073,7 +1073,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#dissolved-oxygen "Dissolved Oxygen"
+* code = TemporaryOahSystem#dissolved-oxygen "Dissolved Oxygen"
 * code.text = "Dissolved Oxygen"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -1097,7 +1097,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#dissolved-oxygen "Dissolved Oxygen"
+* code = TemporaryOahSystem#dissolved-oxygen "Dissolved Oxygen"
 * code.text = "Dissolved Oxygen"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -1119,7 +1119,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#dissolved-oxygen "Dissolved Oxygen"
+* code = TemporaryOahSystem#dissolved-oxygen "Dissolved Oxygen"
 * code.text = "Dissolved Oxygen"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -1143,7 +1143,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#dissolved-oxygen "Dissolved Oxygen"
+* code = TemporaryOahSystem#dissolved-oxygen "Dissolved Oxygen"
 * code.text = "Dissolved Oxygen"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -1167,7 +1167,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#dissolved-oxygen "Dissolved Oxygen"
+* code = TemporaryOahSystem#dissolved-oxygen "Dissolved Oxygen"
 * code.text = "Dissolved Oxygen"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -1191,7 +1191,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#dissolved-oxygen "Dissolved Oxygen"
+* code = TemporaryOahSystem#dissolved-oxygen "Dissolved Oxygen"
 * code.text = "Dissolved Oxygen"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2015-01-01"
@@ -1213,7 +1213,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#electrical-conductivity "Electrical conductivity"
+* code = TemporaryOahSystem#electrical-conductivity "Electrical conductivity"
 * code.text = "Electrical conductivity"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -1237,7 +1237,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#electrical-conductivity "Electrical conductivity"
+* code = TemporaryOahSystem#electrical-conductivity "Electrical conductivity"
 * code.text = "Electrical conductivity"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -1259,7 +1259,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#electrical-conductivity "Electrical conductivity"
+* code = TemporaryOahSystem#electrical-conductivity "Electrical conductivity"
 * code.text = "Electrical conductivity"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -1283,7 +1283,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#electrical-conductivity "Electrical conductivity"
+* code = TemporaryOahSystem#electrical-conductivity "Electrical conductivity"
 * code.text = "Electrical conductivity"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -1307,7 +1307,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#electrical-conductivity "Electrical conductivity"
+* code = TemporaryOahSystem#electrical-conductivity "Electrical conductivity"
 * code.text = "Electrical conductivity"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -1331,7 +1331,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#electrical-conductivity "Electrical conductivity"
+* code = TemporaryOahSystem#electrical-conductivity "Electrical conductivity"
 * code.text = "Electrical conductivity"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2015-01-01"
@@ -1353,7 +1353,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#hydrogen-carbonate-bicarbonate-hco3 "Hydrogen carbonate (Bicarbonate) HCO3"
+* code = TemporaryOahSystem#hydrogen-carbonate-bicarbonate-hco3 "Hydrogen carbonate (Bicarbonate) HCO3"
 * code.text = "Hydrogen carbonate (Bicarbonate) HCO3"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -1377,7 +1377,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#hydrogen-carbonate-bicarbonate-hco3 "Hydrogen carbonate (Bicarbonate) HCO3"
+* code = TemporaryOahSystem#hydrogen-carbonate-bicarbonate-hco3 "Hydrogen carbonate (Bicarbonate) HCO3"
 * code.text = "Hydrogen carbonate (Bicarbonate) HCO3"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -1401,7 +1401,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#hydrogen-carbonate-bicarbonate-hco3 "Hydrogen carbonate (Bicarbonate) HCO3"
+* code = TemporaryOahSystem#hydrogen-carbonate-bicarbonate-hco3 "Hydrogen carbonate (Bicarbonate) HCO3"
 * code.text = "Hydrogen carbonate (Bicarbonate) HCO3"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -1425,7 +1425,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#iron-dissolved "Iron dissolved"
+* code = TemporaryOahSystem#iron-dissolved "Iron dissolved"
 * code.text = "Iron dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -1447,7 +1447,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#iron-dissolved "Iron dissolved"
+* code = TemporaryOahSystem#iron-dissolved "Iron dissolved"
 * code.text = "Iron dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -1469,7 +1469,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#iron-dissolved "Iron dissolved"
+* code = TemporaryOahSystem#iron-dissolved "Iron dissolved"
 * code.text = "Iron dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -1491,7 +1491,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#iron-dissolved "Iron dissolved"
+* code = TemporaryOahSystem#iron-dissolved "Iron dissolved"
 * code.text = "Iron dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -1513,7 +1513,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#iron-dissolved "Iron dissolved"
+* code = TemporaryOahSystem#iron-dissolved "Iron dissolved"
 * code.text = "Iron dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -1535,7 +1535,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#lead-dissolved "Lead dissolved"
+* code = TemporaryOahSystem#lead-dissolved "Lead dissolved"
 * code.text = "Lead dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -1557,7 +1557,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#lead-dissolved "Lead dissolved"
+* code = TemporaryOahSystem#lead-dissolved "Lead dissolved"
 * code.text = "Lead dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -1579,7 +1579,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#lead-dissolved "Lead dissolved"
+* code = TemporaryOahSystem#lead-dissolved "Lead dissolved"
 * code.text = "Lead dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -1601,7 +1601,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#lead-dissolved "Lead dissolved"
+* code = TemporaryOahSystem#lead-dissolved "Lead dissolved"
 * code.text = "Lead dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -1623,7 +1623,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#lead-dissolved "Lead dissolved"
+* code = TemporaryOahSystem#lead-dissolved "Lead dissolved"
 * code.text = "Lead dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -1645,7 +1645,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#magnesium "Magnesium"
+* code = TemporaryOahSystem#magnesium "Magnesium"
 * code.text = "Magnesium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -1669,7 +1669,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#magnesium "Magnesium"
+* code = TemporaryOahSystem#magnesium "Magnesium"
 * code.text = "Magnesium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -1693,7 +1693,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#magnesium "Magnesium"
+* code = TemporaryOahSystem#magnesium "Magnesium"
 * code.text = "Magnesium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -1717,7 +1717,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#manganese-dissolved "Manganese dissolved"
+* code = TemporaryOahSystem#manganese-dissolved "Manganese dissolved"
 * code.text = "Manganese dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -1739,7 +1739,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#manganese-dissolved "Manganese dissolved"
+* code = TemporaryOahSystem#manganese-dissolved "Manganese dissolved"
 * code.text = "Manganese dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -1761,7 +1761,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#manganese-dissolved "Manganese dissolved"
+* code = TemporaryOahSystem#manganese-dissolved "Manganese dissolved"
 * code.text = "Manganese dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -1783,7 +1783,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#manganese-dissolved "Manganese dissolved"
+* code = TemporaryOahSystem#manganese-dissolved "Manganese dissolved"
 * code.text = "Manganese dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -1805,7 +1805,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#manganese-dissolved "Manganese dissolved"
+* code = TemporaryOahSystem#manganese-dissolved "Manganese dissolved"
 * code.text = "Manganese dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -1827,7 +1827,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#mercury-dissolved "Mercury dissolved"
+* code = TemporaryOahSystem#mercury-dissolved "Mercury dissolved"
 * code.text = "Mercury dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -1849,7 +1849,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#mercury-dissolved "Mercury dissolved"
+* code = TemporaryOahSystem#mercury-dissolved "Mercury dissolved"
 * code.text = "Mercury dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -1871,7 +1871,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#mercury-dissolved "Mercury dissolved"
+* code = TemporaryOahSystem#mercury-dissolved "Mercury dissolved"
 * code.text = "Mercury dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -1893,7 +1893,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#mercury-dissolved "Mercury dissolved"
+* code = TemporaryOahSystem#mercury-dissolved "Mercury dissolved"
 * code.text = "Mercury dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -1915,7 +1915,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#mercury-dissolved "Mercury dissolved"
+* code = TemporaryOahSystem#mercury-dissolved "Mercury dissolved"
 * code.text = "Mercury dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -1937,7 +1937,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nickel-dissolved "Nickel dissolved"
+* code = TemporaryOahSystem#nickel-dissolved "Nickel dissolved"
 * code.text = "Nickel dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -1959,7 +1959,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nickel-dissolved "Nickel dissolved"
+* code = TemporaryOahSystem#nickel-dissolved "Nickel dissolved"
 * code.text = "Nickel dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -1981,7 +1981,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nickel-dissolved "Nickel dissolved"
+* code = TemporaryOahSystem#nickel-dissolved "Nickel dissolved"
 * code.text = "Nickel dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -2003,7 +2003,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nickel-dissolved "Nickel dissolved"
+* code = TemporaryOahSystem#nickel-dissolved "Nickel dissolved"
 * code.text = "Nickel dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -2025,7 +2025,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nickel-dissolved "Nickel dissolved"
+* code = TemporaryOahSystem#nickel-dissolved "Nickel dissolved"
 * code.text = "Nickel dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -2047,7 +2047,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrate "Nitrate"
+* code = TemporaryOahSystem#nitrate "Nitrate"
 * code.text = "Nitrate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -2071,7 +2071,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrate "Nitrate"
+* code = TemporaryOahSystem#nitrate "Nitrate"
 * code.text = "Nitrate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -2095,7 +2095,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrate "Nitrate"
+* code = TemporaryOahSystem#nitrate "Nitrate"
 * code.text = "Nitrate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -2119,7 +2119,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrate "Nitrate"
+* code = TemporaryOahSystem#nitrate "Nitrate"
 * code.text = "Nitrate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -2143,7 +2143,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrate "Nitrate"
+* code = TemporaryOahSystem#nitrate "Nitrate"
 * code.text = "Nitrate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -2167,7 +2167,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrate "Nitrate"
+* code = TemporaryOahSystem#nitrate "Nitrate"
 * code.text = "Nitrate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2015-01-01"
@@ -2189,7 +2189,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrite "Nitrite"
+* code = TemporaryOahSystem#nitrite "Nitrite"
 * code.text = "Nitrite"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -2213,7 +2213,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrite "Nitrite"
+* code = TemporaryOahSystem#nitrite "Nitrite"
 * code.text = "Nitrite"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -2237,7 +2237,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrite "Nitrite"
+* code = TemporaryOahSystem#nitrite "Nitrite"
 * code.text = "Nitrite"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -2261,7 +2261,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrite "Nitrite"
+* code = TemporaryOahSystem#nitrite "Nitrite"
 * code.text = "Nitrite"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -2285,7 +2285,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrite "Nitrite"
+* code = TemporaryOahSystem#nitrite "Nitrite"
 * code.text = "Nitrite"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -2309,7 +2309,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#nitrite "Nitrite"
+* code = TemporaryOahSystem#nitrite "Nitrite"
 * code.text = "Nitrite"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2015-01-01"
@@ -2331,7 +2331,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ph "pH"
+* code = TemporaryOahSystem#ph "pH"
 * code.text = "pH"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -2353,7 +2353,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ph "pH"
+* code = TemporaryOahSystem#ph "pH"
 * code.text = "pH"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -2373,7 +2373,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ph "pH"
+* code = TemporaryOahSystem#ph "pH"
 * code.text = "pH"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -2395,7 +2395,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ph "pH"
+* code = TemporaryOahSystem#ph "pH"
 * code.text = "pH"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -2419,7 +2419,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ph "pH"
+* code = TemporaryOahSystem#ph "pH"
 * code.text = "pH"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -2443,7 +2443,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#ph "pH"
+* code = TemporaryOahSystem#ph "pH"
 * code.text = "pH"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2015-01-01"
@@ -2465,7 +2465,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#potassium "Potassium"
+* code = TemporaryOahSystem#potassium "Potassium"
 * code.text = "Potassium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -2489,7 +2489,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#potassium "Potassium"
+* code = TemporaryOahSystem#potassium "Potassium"
 * code.text = "Potassium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -2513,7 +2513,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#potassium "Potassium"
+* code = TemporaryOahSystem#potassium "Potassium"
 * code.text = "Potassium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -2537,7 +2537,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#sodium "Sodium"
+* code = TemporaryOahSystem#sodium "Sodium"
 * code.text = "Sodium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -2561,7 +2561,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#sodium "Sodium"
+* code = TemporaryOahSystem#sodium "Sodium"
 * code.text = "Sodium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -2585,7 +2585,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#sodium "Sodium"
+* code = TemporaryOahSystem#sodium "Sodium"
 * code.text = "Sodium"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -2609,7 +2609,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#sulphate "Sulphate"
+* code = TemporaryOahSystem#sulphate "Sulphate"
 * code.text = "Sulphate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -2633,7 +2633,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#sulphate "Sulphate"
+* code = TemporaryOahSystem#sulphate "Sulphate"
 * code.text = "Sulphate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -2657,7 +2657,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#sulphate "Sulphate"
+* code = TemporaryOahSystem#sulphate "Sulphate"
 * code.text = "Sulphate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -2681,7 +2681,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#sulphate "Sulphate"
+* code = TemporaryOahSystem#sulphate "Sulphate"
 * code.text = "Sulphate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -2705,7 +2705,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#sulphate "Sulphate"
+* code = TemporaryOahSystem#sulphate "Sulphate"
 * code.text = "Sulphate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -2729,7 +2729,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#sulphate "Sulphate"
+* code = TemporaryOahSystem#sulphate "Sulphate"
 * code.text = "Sulphate"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2015-01-01"
@@ -2751,7 +2751,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#temperature-water "Temperature (water)"
+* code = $sct#386725007 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -2775,7 +2775,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#temperature-water "Temperature (water)"
+* code = $sct#386725007 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -2797,7 +2797,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#temperature-water "Temperature (water)"
+* code = $sct#386725007 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -2821,7 +2821,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#temperature-water "Temperature (water)"
+* code = $sct#386725007 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -2845,7 +2845,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#temperature-water "Temperature (water)"
+* code = $sct#386725007 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -2869,7 +2869,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#temperature-water "Temperature (water)"
+* code = $sct#386725007 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2015-01-01"
@@ -2891,7 +2891,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#total-phosphates "Total phosphates"
+* code = TemporaryOahSystem#total-phosphates "Total phosphates"
 * code.text = "Total phosphates"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -2915,7 +2915,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#total-phosphates "Total phosphates"
+* code = TemporaryOahSystem#total-phosphates "Total phosphates"
 * code.text = "Total phosphates"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -2939,7 +2939,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#total-phosphates "Total phosphates"
+* code = TemporaryOahSystem#total-phosphates "Total phosphates"
 * code.text = "Total phosphates"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -2963,7 +2963,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#zinc-dissolved "Zinc dissolved"
+* code = TemporaryOahSystem#zinc-dissolved "Zinc dissolved"
 * code.text = "Zinc dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -2985,7 +2985,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = https://oneaquahealth.eu/chem-parameters#zinc-dissolved "Zinc dissolved"
+* code = TemporaryOahSystem#zinc-dissolved "Zinc dissolved"
 * code.text = "Zinc dissolved"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
