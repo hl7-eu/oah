@@ -14,8 +14,8 @@ This resource is used to describe the data set of indicators that are used in th
 * extension contains $library-copyrightLabel-r5 named copyrightLabel 0..1
 * extension[copyrightLabel].valueString
 
-* extension contains $licenceCodeable named licence 0..1
-* extension[licence].valueCodeableConcept
+/* * extension contains $licenceCodeable named licence 0..1
+* extension[licence].valueCodeableConcept */
 
 * url 1..1
   * ^short = "Data Set unique identifier"

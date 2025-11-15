@@ -22,7 +22,7 @@ publisher:
 dependencies:
 #  hl7.fhir.uv.ips: 1.1.0 
   hl7.fhir.extensions.r5: 4.0.1
-  hl7.fhir.uv.fhir-for-fair: 1.0.0
+#  hl7.fhir.uv.fhir-for-fair: 1.0.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode

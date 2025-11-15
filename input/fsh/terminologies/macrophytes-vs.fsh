@@ -36,6 +36,8 @@ Id: macrophytes-indicator-value-oah-vs
 Title: "OAH Macrophytes Indicator Values"
 Description: """This Value Set is used to identify the indicators adopted by this project."""
 
+* ^experimental = false
+
 * TemporaryOahSystem#absent "Absent"
 * TemporaryOahSystem#present "Present"
 * TemporaryOahSystem#extensive "Extensive"

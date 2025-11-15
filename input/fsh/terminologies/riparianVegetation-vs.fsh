@@ -15,6 +15,8 @@ Id: riparian-vegetation-value-oah-vs
 Title: "OAH Riparian Vegetation Indicator Values"
 Description: """This Value Set is used to identify the indicators adopted by this project."""
 
+* ^experimental = false
+
 * TemporaryOahSystem#0-20-percent "0-20%"
 * TemporaryOahSystem#21-40-percent "21-40%"
 * TemporaryOahSystem#41-60-percent "41-60%"
