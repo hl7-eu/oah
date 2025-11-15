@@ -1,6 +1,6 @@
 Logical: DataSetOah
 Id: DataSet
-Title: "OAH Data Set "
+Title: "OAH Data Set Model"
 Description: """Model describing the data set usd for the OneAquaHealth project"""
 * pid 1..1 url "globally uniqu,  persistent and resolvable identifier" """globally uniqu,  persistent and resolvable identifier"""
 * title 0..1 string "Data set title" """Data set title"""

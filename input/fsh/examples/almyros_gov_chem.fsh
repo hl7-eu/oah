@@ -2751,7 +2751,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = $sct#386725007 "Temperature"
+* code = $sct#703421000 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2018-01-01"
@@ -2775,7 +2775,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = $sct#386725007 "Temperature"
+* code = $sct#703421000 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2019-01-01"
@@ -2797,7 +2797,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = $sct#386725007 "Temperature"
+* code = $sct#703421000 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2020-01-01"
@@ -2821,7 +2821,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = $sct#386725007 "Temperature"
+* code = $sct#703421000 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2013-01-01"
@@ -2845,7 +2845,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = $sct#386725007 "Temperature"
+* code = $sct#703421000 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2014-01-01"
@@ -2869,7 +2869,7 @@ InstanceOf: ObservationWithCompOah
 Usage: #example
 * status = #final
 * category[0] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
-* code = $sct#386725007 "Temperature"
+* code = $sct#703421000 "Temperature"
 * code.text = "Temperature (water)"
 * subject = Reference(Loc-Almyros)
 * effectivePeriod.start = "2015-01-01"
