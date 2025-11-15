@@ -12,7 +12,7 @@ Description: "It defines the rules to be applied to the Location for the purpose
   * ^short = "Location name"
 * mode 1..1
 * mode = #instance
-* type = $sct#420531007 // River
+* type ^short = "Location type"
 * position 1..1
   * ^short = "Location position"
   * longitude 1..1

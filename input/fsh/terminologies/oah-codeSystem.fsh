@@ -69,6 +69,13 @@ Description: """This is a temporary code system defined to collect concepts expe
 * #fish "Fish" "Fish" 
 * #amphibians "Amphibians" "Amphibians" 
 
+// Air pollutant parameters captured in Benevento air-quality summaries
+* #benzene "Benzene" "Benzene (C6H6)"
+* #no2 "Nitrogen dioxide (NO2)" "Nitrogen dioxide"
+* #o3 "Ozone (O3)" "Ozone"
+* #pm10 "Particulate Matter PM10" "Particulate Matter PM10"
+* #pm2-5 "Particulate Matter PM2.5" "Particulate Matter PM2.5"
+
 
 * #ndvi "Normalized Difference Vegetation Index (NDVI)"
 * #mndvi "Modified Normalized Difference Vegetation Index (mNDVI)"
