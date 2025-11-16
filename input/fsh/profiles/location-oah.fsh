@@ -13,7 +13,7 @@ Description: "It defines the rules to be applied to the Location for the purpose
 * mode 1..1
 * mode = #instance
 * type ^short = "Location type"
-* position 1..1
+* position 0..1 // not all seem to have GPS position
   * ^short = "Location position"
   * longitude 1..1
     * ^short = "Location longitude"

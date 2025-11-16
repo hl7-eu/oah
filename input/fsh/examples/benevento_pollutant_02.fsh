@@ -13,7 +13,7 @@ Usage: #example
 * type = $sct#288520005 "City environment"
 * position.latitude = 41.129
 * position.longitude = 14.781
-
+* partOf = Reference(Loc-Benevento)
 Instance: Obs-Benevento02-Benzene-2018
 Title: "Observation - Benevento02 Benzene (2018 summary)"
 Description: "Annual summary statistics for Benzene measured at Benevento site 02 in 2018."
@@ -253,3 +253,4 @@ Usage: #example
 * component[=].valueQuantity = 20.77 'ug/m3' "microgram per cubic meter"
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#median "Median"
 * component[=].valueQuantity = 15.5 'ug/m3' "microgram per cubic meter"
+

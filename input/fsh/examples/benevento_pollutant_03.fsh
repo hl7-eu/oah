@@ -1,7 +1,5 @@
 // Benevento urban air quality summaries for site 03
 
-
-
 Instance: Loc-Benevento-03
 Title: "Location - Benevento monitoring site 03"
 Description: "Fixed monitoring station #03 in Benevento urban area (air quality)."
@@ -15,7 +13,7 @@ Usage: #example
 * type = $sct#288520005 "City environment"
 * position.latitude = 41.129
 * position.longitude = 14.781
-
+* partOf = Reference(Loc-Benevento)
 Instance: Obs-Benevento03-Benzene-2018
 Title: "Observation - Benevento03 Benzene (2018 summary)"
 Description: "Annual summary statistics for Benzene measured at Benevento site 03 in 2018."
@@ -255,3 +253,4 @@ Usage: #example
 * component[=].valueQuantity = 11.65 'ug/m3' "microgram per cubic meter"
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#median "Median"
 * component[=].valueQuantity = 15.5 'ug/m3' "microgram per cubic meter"
+

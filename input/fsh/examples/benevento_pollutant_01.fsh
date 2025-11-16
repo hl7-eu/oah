@@ -1,15 +1,5 @@
 // Benevento urban air quality summaries for site 01
 
-Instance: Org-ARPAC-Campania
-Title: "Organization - ARPAC Campania"
-Description: "Regional environmental protection agency responsible for Benevento monitoring network."
-InstanceOf: Organization
-Usage: #example
-* name = "ARPAC - Campania Regional Environmental Agency"
-* type[0].coding[0].system = "http://terminology.hl7.org/CodeSystem/organization-type"
-* type[0].coding[0].code = #govt
-* type[0].coding[0].display = "Government"
-
 Instance: Loc-Benevento-01
 Title: "Location - Benevento monitoring site 01"
 Description: "Fixed monitoring station #01 in Benevento urban area (air quality)."
@@ -21,10 +11,9 @@ Usage: #example
 * description = "Benevento ARPAC air-quality station (site 01)."
 * mode = #instance
 * type = $sct#288520005 "City environment"
-
 * position.latitude = 41.129
 * position.longitude = 14.781
-
+* partOf = Reference(Loc-Benevento)
 Instance: Obs-Benevento01-Benzene-2018
 Title: "Observation - Benevento01 Benzene (2018 summary)"
 Description: "Annual summary statistics for Benzene measured at Benevento site 01 in 2018."
@@ -264,3 +253,4 @@ Usage: #example
 * component[=].valueQuantity = 16.77 'ug/m3' "microgram per cubic meter"
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#median "Median"
 * component[=].valueQuantity = 18.1 'ug/m3' "microgram per cubic meter"
+
