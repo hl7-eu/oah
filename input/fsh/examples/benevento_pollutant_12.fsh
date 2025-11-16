@@ -11,7 +11,7 @@ Usage: #example
 * name = "Benevento monitoring site 12"
 * description = "Benevento ARPAC air-quality station (site 12)."
 * mode = #instance
-* type = http://snomed.info/sct#257559008 "Monitoring station"
+* type = $sct#288520005 "City environment"
 * position.latitude = 41.129
 * position.longitude = 14.781
 
@@ -30,11 +30,11 @@ Usage: #example
 * performer[0] = Reference(Org-ARPAC-Campania)
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#average "Average"
 * component[=].valueQuantity = 24.56 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#max "Maximum"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#maximum "Maximum"
 * component[=].valueQuantity = 98 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#min "Minimum"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#minimum "Minimum"
 * component[=].valueQuantity = 0.9 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#stdev "Standard deviation"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#std-dev "Standard Deviation"
 * component[=].valueQuantity = 18.5 'ug/m3' "microgram per cubic meter"
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#median "Median"
 * component[=].valueQuantity = 18.8 'ug/m3' "microgram per cubic meter"
@@ -54,11 +54,11 @@ Usage: #example
 * performer[0] = Reference(Org-ARPAC-Campania)
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#average "Average"
 * component[=].valueQuantity = 34.6 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#max "Maximum"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#maximum "Maximum"
 * component[=].valueQuantity = 83.4 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#min "Minimum"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#minimum "Minimum"
 * component[=].valueQuantity = 5.3 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#stdev "Standard deviation"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#std-dev "Standard Deviation"
 * component[=].valueQuantity = 24.01 'ug/m3' "microgram per cubic meter"
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#median "Median"
 * component[=].valueQuantity = 28.5 'ug/m3' "microgram per cubic meter"
@@ -78,11 +78,11 @@ Usage: #example
 * performer[0] = Reference(Org-ARPAC-Campania)
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#average "Average"
 * component[=].valueQuantity = 29.58 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#max "Maximum"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#maximum "Maximum"
 * component[=].valueQuantity = 148 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#min "Minimum"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#minimum "Minimum"
 * component[=].valueQuantity = 0 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#stdev "Standard deviation"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#std-dev "Standard Deviation"
 * component[=].valueQuantity = 24.9 'ug/m3' "microgram per cubic meter"
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#median "Median"
 * component[=].valueQuantity = 25 'ug/m3' "microgram per cubic meter"
@@ -102,11 +102,11 @@ Usage: #example
 * performer[0] = Reference(Org-ARPAC-Campania)
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#average "Average"
 * component[=].valueQuantity = 28.92 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#max "Maximum"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#maximum "Maximum"
 * component[=].valueQuantity = 118.7 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#min "Minimum"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#minimum "Minimum"
 * component[=].valueQuantity = 0 'ug/m3' "microgram per cubic meter"
-* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#stdev "Standard deviation"
+* component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#std-dev "Standard Deviation"
 * component[=].valueQuantity = 25.34 'ug/m3' "microgram per cubic meter"
 * component[+].code = http://terminology.hl7.org/CodeSystem/observation-statistics#median "Median"
 * component[=].valueQuantity = 21.65 'ug/m3' "microgram per cubic meter"
