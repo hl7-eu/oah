@@ -8,3 +8,29 @@ The link 'StructureDefinition-PersonName.sch' for "Schematron" cannot be resolve
 The link 'StructureDefinition-conformance-cen-ips-examples.html' for "Examples" cannot be resolved
 The link 'StructureDefinition-conformance-cen-ips-examples.html' for "Examples" cannot be resolved
 
+
+This element does not match any known slice defined in the profile http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-with-component-oah|0.1.0-ci-build
+No definition could be found for URL value 'Observation/
+No definition could be found for URL value 'https://oneaquahealth.eu/library-id'
+The Source Code System http://hl7.eu/fhir/ig/oah/StructureDefinition
+The Target Code System http://hl7.eu/fhir/ig/oah/StructureDefinition
+
+//hl7.eu/fhir/ig/oah/StructureDefinition/specimen-oah'): The Implementation Guide contains no examples for this profile
+\workspace\oah\output\DataSet-map.html: The html source has duplicate anchor Ids: 1
+\workspace\oah\output\IndicatorsOah-map.html: The html source has duplicate anchor Ids: 1
+\workspace\oah\output\Sample-map.html: The html source has duplicate anchor Ids: 1
+\workspace\oah\output\SimpleIndicator-map.html: The html source has duplicate anchor Ids: 1
+\workspace\oah\output\StructuredIndicator-map.html: The html source has duplicate anchor Ids: 1
+CodeSystem.concept[50]: HL7 Defined CodeSystems should ensure that every concept has a definition
+ConceptMap.group[0].target: The Target Code System Attachment is not fully defined and populated, and no targetScope is specified, so the target code checking will not be performed
+ConceptMap.group[1].target: The Target Code System DataRequirement is not fully defined and populated, and no targetScope is specified, so the target code checking will not be performed
+Location.identifier[0].system: No definition could be found for URL value 'https://oneaquahealth.eu/location-id'
+Observation.code.coding[0].system: A definition for CodeSystem 'https://oneaquahealth.eu/air-parameters' could not be found, so the code cannot be validated
+Observation.code.coding[0]: A definition for CodeSystem 'https://oneaquahealth.eu/air-parameters' could not be found, so the code cannot be validated
+Organization.identifier[0].system: No definition could be found for URL value 'https://www.indicepa.gov.it/ipa/ente'
+Organization.identifier[1].system: No definition could be found for URL value 'https://www.indicepa.gov.it/uo/codice'
+Organization.identifier[2].system: No definition could be found for URL value 'https://www.indicepa.gov.it/aoo/codice'
+StructureDefinition.differential.element[2].binding: The definition for the element 'Observation.code' binds to the value set 'http://hl7.eu/fhir/ig/oah/ValueSet/temporarySystem-oah-eu' which is experimental, but this structure is not labeled as experimental
+StructureDefinition.differential.element[8].binding: The definition for the element 'Observation.component.code' binds to the value set 'http://hl7.eu/fhir/ig/oah/ValueSet/temporarySystem-oah-eu' which is experimental, but this structure is not labeled as experimental
+StructureDefinition.snapshot.element[14].binding: The definition for the element 'Observation.code' binds to the value set 'http://hl7.eu/fhir/ig/oah/ValueSet/temporarySystem-oah-eu' which is experimental, but this structure is not labeled as experimental
+StructureDefinition.snapshot.element[45].binding: The definition for the element 'Observation.component.code' binds to the value set 'http://hl7.eu/fhir/ig/oah/ValueSet/temporarySystem-oah-eu' which is experimental, but this structure is not labeled as experimental
