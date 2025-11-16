@@ -1,4 +1,4 @@
-﻿Instance: Org-ARPAC-Campania
+Instance: Org-ARPAC-Campania
 Title: "Organization - ARPAC Campania"
 Description: "Agenzia Regionale per la Protezione dell'Ambiente della Campania - Dipartimento Provinciale di Benevento."
 InstanceOf: Organization
