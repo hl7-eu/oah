@@ -4,8 +4,8 @@ DataSetOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/DataSet,DataRequir
 DataSetOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/DataSet,http://hl7.eu/fhir/ig/oah/StructureDefinition/library-oah
 IndicatorsOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/IndicatorsOah,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
 IndicatorsOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/IndicatorsOah,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-with-component-oah
-SimpleIndicatorOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/SimpleIndicator,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
-StructuredIndicatorOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/StructuredIndicator,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-with-component-oah
 SampleOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/Sample,http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah
 SampleOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/Sample,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
 SampleOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/Sample,http://hl7.eu/fhir/ig/oah/StructureDefinition/specimen-oah
+SimpleIndicatorOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/SimpleIndicator,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
+StructuredIndicatorOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/StructuredIndicator,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-with-component-oah

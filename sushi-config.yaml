@@ -47,6 +47,8 @@ pages:
 #    title: Examples
   downloads.md:
     title: Downloads
+  logical-models.md:
+    title: Logical Models
 #  implementation.md:
 #    title: Implementation Considerations
  #  recommendations.md:
@@ -90,6 +92,7 @@ pages:
 menu:
   Home: index.html
   Table of Contents: toc.html
+  Logical Models: logical-models.html
   Model Maps:
     SimpleIndicator: SimpleIndicator-map.html
     StructuredIndicator: StructuredIndicator-map.html
