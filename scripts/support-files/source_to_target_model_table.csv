@@ -2,6 +2,9 @@ ConceptMap ID,Source Profile,Target Profile
 DataSetOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/DataSet,Attachment
 DataSetOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/DataSet,DataRequirement
 DataSetOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/DataSet,http://hl7.eu/fhir/ig/oah/StructureDefinition/library-oah
+HealthIndicatorsOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/HealthIndicators,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-health-measure-oah
+HealthMeasureOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/HealthMeasure,http://hl7.eu/fhir/ig/oah/StructureDefinition/group-oah
+HealthMeasureOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/HealthMeasure,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-health-measure-oah
 IndicatorsOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/IndicatorsOah,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
 IndicatorsOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/IndicatorsOah,http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-with-component-oah
 SampleOah2FHIR,http://hl7.eu/fhir/ig/oah/StructureDefinition/Sample,http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah

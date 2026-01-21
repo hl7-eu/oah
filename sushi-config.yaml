@@ -53,16 +53,21 @@ pages:
 #    title: Implementation Considerations
  #  recommendations.md:
 #    title: Recommendations
+
+  HealthIndicators-map.html:
+    title: HealthIndicators Relationships
+  DataSet-map.html:
+    title: DataSet Relationships
+  IndicatorsOah-map.html:
+    title: IndicatorsOah Relationships
   SimpleIndicator-map.html:
     title: SimpleIndicator Relationships
   StructuredIndicator-map.html:
     title: StructuredIndicator Relationships
-  IndicatorsOah-map.html:
-    title: IndicatorsOah Relationships
-  DataSet-map.html:
-    title: DataSet Relationships
   Sample-map.html:
     title: Sample Relationships
+  HealthMeasure-map.html:
+    title: HealthMeasure Relationships
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -94,11 +99,13 @@ menu:
   Table of Contents: toc.html
   Logical Models: logical-models.html
   Model Maps:
+    HealthIndicators: HealthIndicators-map.html
+    DataSet: DataSet-map.html
+    IndicatorsOah: IndicatorsOah-map.html
     SimpleIndicator: SimpleIndicator-map.html
     StructuredIndicator: StructuredIndicator-map.html
-    IndicatorsOah: IndicatorsOah-map.html
     Sample: Sample-map.html
-    DataSet: DataSet-map.html    
+    HealthMeasure: HealthMeasure-map.html
   Artifacts: artifacts.html
   Downloads: downloads.html
   

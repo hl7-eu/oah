@@ -1,0 +1,21 @@
+@startuml
+hide circle
+hide stereotype
+hide members
+hide methods
+skinparam linetype ortho
+skinparam class {
+BackgroundColor<<LogicalModel>> #APPLICATION
+BackgroundColor<<Profile>> #TECHNOLOGY
+}
+legend right
+| <#APPLICATION>  Logical Model |
+| <#TECHNOLOGY>  Profile |
+endlegend
+class "HealthIndicators" <<LogicalModel>> [[StructureDefinition-HealthIndicators.html]]
+note top #PaleTurquoise [[ConceptMap-HealthIndicatorsOah2FHIR.html]]
+Concept Map
+endnote
+class "observation-health-measure-oah" <<Profile>> [[StructureDefinition-observation-health-measure-oah.html]]
+"HealthIndicators" <|. "observation-health-measure-oah"
+@enduml

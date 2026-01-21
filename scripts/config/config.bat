@@ -4,7 +4,8 @@ REM === Set project root 2 levels above this config file ===
 for %%i in ("%~dp0..\..") do set "PROJECT_DIR=%%~fi"
 
 REM === Python env location ===
-set PYTHON_ENV=c:\workspace\___Python\env\Scripts\python.exe
+REM set PYTHON_ENV=c:\workspace\___Python\env\Scripts\python.exe
+set PYTHON_ENV=C:\Users\giorg\AppData\Local\Microsoft\WindowsApps\python.exe
 
 REM === Subfolders and files ===
 set SCRIPTS_DIR=%PROJECT_DIR%\scripts
