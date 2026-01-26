@@ -14,10 +14,11 @@ Usage: #example
 * date = "2025-05-27"
 * publisher = "OneAquaHealth Consortium"
 * author[0].name = "ARPAC Campania"
-* description = "Consolidated Benevento dataset with 103 observation summaries from sites 01-12."
-* extension[size].valueQuantity.value = 103
+* description = "Consolidated Benevento dataset with 163 observation summaries from sites 01-12 and disease prevalence cohorts."
+* extension[size].valueQuantity.value = 163
 * extension[size].valueQuantity.unit = "observations"
-* extension[numberOfRecords].valueInteger = 103
+* extension[numberOfRecords].valueInteger = 163
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento01-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -224,7 +225,126 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento12-Pm10-2018"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento12-Pm25-2018"
-
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-high-blood-pression-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-high-blood-pression-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-high-blood-pression-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-high-blood-pression-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-high-blood-pression-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-high-blood-pression-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-hypertension-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-hypertension-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-hypertension-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-hypertension-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-hypertension-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-hypertension-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-high-blood-pression-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-high-blood-pression-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-high-blood-pression-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-high-blood-pression-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-high-blood-pression-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-high-blood-pression-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-obesity-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-obesity-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-obesity-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-obesity-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-obesity-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-obesity-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cholesterolemia-190-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cholesterolemia-190-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cholesterolemia-190-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cholesterolemia-190-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cholesterolemia-190-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cholesterolemia-190-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-hypercholesterolemia-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-hypercholesterolemia-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-hypercholesterolemia-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-hypercholesterolemia-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-hypercholesterolemia-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-hypercholesterolemia-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cholesterolemia-240-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cholesterolemia-240-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cholesterolemia-240-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cholesterolemia-240-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cholesterolemia-240-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cholesterolemia-240-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-diabetes-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-diabetes-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-diabetes-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-diabetes-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-diabetes-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-diabetes-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-diabetes-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-diabetes-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-diabetes-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-diabetes-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-diabetes-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-diabetes-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cvd-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cvd-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cvd-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cvd-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cvd-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cvd-Female-Age-35-74"
 Instance: Library-Benevento-01
 Title: "Library - Benevento site 01"
 Description: "Observation summaries for Benevento monitoring site 01."
@@ -241,10 +361,11 @@ Usage: #example
 * date = "2025-05-27"
 * publisher = "OneAquaHealth Consortium"
 * author[0].name = "ARPAC Campania"
-* description = "Benevento site 01 annual pollutant summaries."
-* extension[size].valueQuantity.value = 10
+* description = "Benevento site 01 annual pollutant summaries and disease prevalence cohorts."
+* extension[size].valueQuantity.value = 30
 * extension[size].valueQuantity.unit = "observations"
-* extension[numberOfRecords].valueInteger = 10
+* extension[numberOfRecords].valueInteger = 30
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento01-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -265,7 +386,46 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento01-Pm10-2019"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento01-Pm25-2019"
-
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-high-blood-pression-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-high-blood-pression-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-hypertension-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-hypertension-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-high-blood-pression-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-high-blood-pression-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-obesity-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-obesity-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cholesterolemia-190-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cholesterolemia-190-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-hypercholesterolemia-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-hypercholesterolemia-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cholesterolemia-240-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cholesterolemia-240-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-diabetes-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-diabetes-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-diabetes-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-diabetes-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cvd-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN1-cvd-Female-Age-35-74"
 Instance: Library-Benevento-02
 Title: "Library - Benevento site 02"
 Description: "Observation summaries for Benevento monitoring site 02."
@@ -282,10 +442,11 @@ Usage: #example
 * date = "2025-05-27"
 * publisher = "OneAquaHealth Consortium"
 * author[0].name = "ARPAC Campania"
-* description = "Benevento site 02 annual pollutant summaries."
-* extension[size].valueQuantity.value = 10
+* description = "Benevento site 02 annual pollutant summaries and disease prevalence cohorts."
+* extension[size].valueQuantity.value = 30
 * extension[size].valueQuantity.unit = "observations"
-* extension[numberOfRecords].valueInteger = 10
+* extension[numberOfRecords].valueInteger = 30
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento02-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -306,7 +467,46 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento02-Pm10-2019"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento02-Pm25-2019"
-
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-high-blood-pression-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-high-blood-pression-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-hypertension-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-hypertension-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-high-blood-pression-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-high-blood-pression-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-obesity-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-obesity-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cholesterolemia-190-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cholesterolemia-190-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-hypercholesterolemia-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-hypercholesterolemia-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cholesterolemia-240-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cholesterolemia-240-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-diabetes-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-diabetes-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-diabetes-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-diabetes-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cvd-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN2-cvd-Female-Age-35-74"
 Instance: Library-Benevento-03
 Title: "Library - Benevento site 03"
 Description: "Observation summaries for Benevento monitoring site 03."
@@ -323,10 +523,11 @@ Usage: #example
 * date = "2025-05-27"
 * publisher = "OneAquaHealth Consortium"
 * author[0].name = "ARPAC Campania"
-* description = "Benevento site 03 annual pollutant summaries."
-* extension[size].valueQuantity.value = 10
+* description = "Benevento site 03 annual pollutant summaries and disease prevalence cohorts."
+* extension[size].valueQuantity.value = 30
 * extension[size].valueQuantity.unit = "observations"
-* extension[numberOfRecords].valueInteger = 10
+* extension[numberOfRecords].valueInteger = 30
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento03-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -347,7 +548,46 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento03-Pm10-2019"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento03-Pm25-2019"
-
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-high-blood-pression-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-high-blood-pression-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-hypertension-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-hypertension-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-high-blood-pression-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-high-blood-pression-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-obesity-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-obesity-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cholesterolemia-190-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cholesterolemia-190-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-hypercholesterolemia-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-hypercholesterolemia-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cholesterolemia-240-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cholesterolemia-240-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-diabetes-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-diabetes-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-diabetes-treatment-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-diabetes-treatment-Female-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cvd-Male-Age-35-74"
+* content[+].contentType = #application/fhir+json
+* content[=].url = "Observation/Obs-BN-BN3-cvd-Female-Age-35-74"
 Instance: Library-Benevento-04
 Title: "Library - Benevento site 04"
 Description: "Observation summaries for Benevento monitoring site 04."
@@ -368,6 +608,7 @@ Usage: #example
 * extension[size].valueQuantity.value = 10
 * extension[size].valueQuantity.unit = "observations"
 * extension[numberOfRecords].valueInteger = 10
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento04-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -388,7 +629,6 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento04-Pm10-2019"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento04-Pm25-2019"
-
 Instance: Library-Benevento-05
 Title: "Library - Benevento site 05"
 Description: "Observation summaries for Benevento monitoring site 05."
@@ -409,6 +649,7 @@ Usage: #example
 * extension[size].valueQuantity.value = 10
 * extension[size].valueQuantity.unit = "observations"
 * extension[numberOfRecords].valueInteger = 10
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento05-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -429,7 +670,6 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento05-Pm10-2019"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento05-Pm25-2019"
-
 Instance: Library-Benevento-06
 Title: "Library - Benevento site 06"
 Description: "Observation summaries for Benevento monitoring site 06."
@@ -450,6 +690,7 @@ Usage: #example
 * extension[size].valueQuantity.value = 10
 * extension[size].valueQuantity.unit = "observations"
 * extension[numberOfRecords].valueInteger = 10
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento06-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -470,7 +711,6 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento06-Pm10-2019"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento06-Pm25-2019"
-
 Instance: Library-Benevento-07
 Title: "Library - Benevento site 07"
 Description: "Observation summaries for Benevento monitoring site 07."
@@ -491,6 +731,7 @@ Usage: #example
 * extension[size].valueQuantity.value = 10
 * extension[size].valueQuantity.unit = "observations"
 * extension[numberOfRecords].valueInteger = 10
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento07-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -511,7 +752,6 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento07-Pm10-2019"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento07-Pm25-2019"
-
 Instance: Library-Benevento-08
 Title: "Library - Benevento site 08"
 Description: "Observation summaries for Benevento monitoring site 08."
@@ -532,6 +772,7 @@ Usage: #example
 * extension[size].valueQuantity.value = 10
 * extension[size].valueQuantity.unit = "observations"
 * extension[numberOfRecords].valueInteger = 10
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento08-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -552,7 +793,6 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento08-Pm10-2019"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento08-Pm25-2019"
-
 Instance: Library-Benevento-09
 Title: "Library - Benevento site 09"
 Description: "Observation summaries for Benevento monitoring site 09."
@@ -573,6 +813,7 @@ Usage: #example
 * extension[size].valueQuantity.value = 10
 * extension[size].valueQuantity.unit = "observations"
 * extension[numberOfRecords].valueInteger = 10
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento09-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -593,7 +834,6 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento09-Pm10-2019"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento09-Pm25-2019"
-
 Instance: Library-Benevento-10
 Title: "Library - Benevento site 10"
 Description: "Observation summaries for Benevento monitoring site 10."
@@ -614,6 +854,7 @@ Usage: #example
 * extension[size].valueQuantity.value = 5
 * extension[size].valueQuantity.unit = "observations"
 * extension[numberOfRecords].valueInteger = 5
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento10-Benzene-2018"
 * content[+].contentType = #application/fhir+json
@@ -624,7 +865,6 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento10-Pm10-2018"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento10-Pm25-2018"
-
 Instance: Library-Benevento-11
 Title: "Library - Benevento site 11"
 Description: "Observation summaries for Benevento monitoring site 11."
@@ -645,6 +885,7 @@ Usage: #example
 * extension[size].valueQuantity.value = 4
 * extension[size].valueQuantity.unit = "observations"
 * extension[numberOfRecords].valueInteger = 4
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento11-No2-2018"
 * content[+].contentType = #application/fhir+json
@@ -653,7 +894,6 @@ Usage: #example
 * content[=].url = "Observation/Obs-Benevento11-Pm10-2018"
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento11-Pm25-2018"
-
 Instance: Library-Benevento-12
 Title: "Library - Benevento site 12"
 Description: "Observation summaries for Benevento monitoring site 12."
@@ -674,6 +914,7 @@ Usage: #example
 * extension[size].valueQuantity.value = 4
 * extension[size].valueQuantity.unit = "observations"
 * extension[numberOfRecords].valueInteger = 4
+
 * content[+].contentType = #application/fhir+json
 * content[=].url = "Observation/Obs-Benevento12-No2-2018"
 * content[+].contentType = #application/fhir+json
