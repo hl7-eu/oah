@@ -1,12 +1,4 @@
 
-ValueSet: OahIndicatorsVs
-Id: temporarySystem-oah-eu
-Title: "OAH Indicators"
-Description: """This Value Set is used to identify the indicators adopted by this project."""
-
-* ^experimental = true
-* codes from system TemporaryOahSystem
-
 CodeSystem: TemporaryOahSystem
 Id: temporarySystem-oah-eu
 Title: "Temporary OAH Code System"
@@ -68,6 +60,39 @@ Description: """This is a temporary code system defined to collect concepts expe
 * #diatomTratology "Diatom teratology" "Diatom teratology (deformities)" 
 * #fish "Fish" "Fish" 
 * #amphibians "Amphibians" "Amphibians" 
+
+// Health and wellness indicators
+* #disease-prevalence "Cases of disease prevalence" "Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #high-blood-pression "% of people with high blood pressure (prevalence)" "% of people with high blood pressure (prevalence) - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #hypertension "% of people under treatment for hypertension" "% of people under treatment for hypertension - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #high-blood-pression-treatment "% of people under treatment for high blood pressure" "% of people under treatment for high blood pressure - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #obesity "% of people affected from obesity" "% of people affected from obesity - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #cholesterolemia-190 "% of people with high total cholesterolemia (>=190 mg/dl)" "% of people with high total cholesterolemia (>=190 mg/dl) - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #hypercholesterolemia-treatment "% of people under treatment for hypercholesterolemia" "% of people under treatment for hypercholesterolemia - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #cholesterolemia-240 "% of people with high total cholesterolemia (>=240 mg/dl)" "% of people with high total cholesterolemia (>=240 mg/dl) - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #diabetes "% of people with high blood sugar/diabetes" "% of people with high blood sugar/diabetes - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #diabetes-treatment "% of people under treatment for diabetes" "% of people under treatment for diabetes - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #no-physical-activity "% of people not engaging in physical activity" "% of people not engaging in physical activity - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #cvd "% of people affected from CVD" "% of people affected from CVD - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #gastrointestinal "% of people with Cases of Gastrointestinal diseases" "% of people with Cases of Gastrointestinal diseases - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #long-term-disease "% of people with long-term disease" "% of people with long-term disease - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #no-long-term-disease "% of people without long-term disease" "% of people without long-term disease - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #bmi-below-18 "% of people with BMI <18,5" "% of people with BMI <18,5 - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #bmi-below-25 "% of people with BMI 18,5-24,9" "% of people with BMI 18,5-24,9 - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #bmi-below-30 "% of people with BMI 25-29,9" "% of people with BMI 25-29,9 - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #bmi-above-30 "% of people with BMI =>30" "% of people with BMI =>30 - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #diabate-copd-cvd "% of people that have or have had Diabetes, COPD or Cardiovascular disease" "% of people that have or have had Diabetes, COPD or Cardiovascular disease - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #no-diabate-copd-cvd "% of people that do not have Diabetes, COPD or Cardiovascular disease" "% of people that do not have Diabetes, COPD or Cardiovascular disease - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #mental-health "% of people experience with mental health issues" "% of people experience with mental health issues - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #borrelia "% of people with Borrelia Burgdoferi" "% of people with Borrelia Burgdoferi - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #campylobacter "% of people with Campylobacter" "% of people with Campylobacter - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #chlamydia "% of people with Chlamydia Psittaci" "% of people with Chlamydia Psittaci - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #cryptosporidium "% of people with Cryptosporidium" "% of people with Cryptosporidium - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #entamoeba "% of people with Entamoeba histolytica" "% of people with Entamoeba histolytica - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #escherichia-coli "% of people with Escherichia Coli" "% of people with Escherichia Coli - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #giarda "% of people with Giarda" "% of people with Giarda - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #salmonella "% of people with Salmonella" "% of people with Salmonella - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
+* #yersinia-enterocolitica "% of people with Yersinia enterocolitica" "% of people with Yersinia enterocolitica - Cases of disease prevalence per 100.000 inhabitants, per district, for each of the causes considered as relatable to the project"
 
 // Air pollutant parameters captured in Benevento air-quality summaries
 * #benzene "Benzene" "Benzene (C6H6)"

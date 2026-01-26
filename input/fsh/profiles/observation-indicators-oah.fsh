@@ -8,7 +8,7 @@ Description: "Profile for OneAquaHealth project indicators."
 * status ^comment = "The status of the observation."
 
 * code 1..
-* code from OahIndicatorsVs (preferred)
+* code from OahIndicatorsNoHealthOahVs (preferred)
 * subject 1.. 
 * subject only Reference(LocationOah)
 * specimen 0..
@@ -21,7 +21,7 @@ Description: "Profile for OneAquaHealth project indicators."
 * value[x] only CodeableConcept or Quantity
 * value[x] ^short = "OAH Indicator value"
 * component
-  * code from OahIndicatorsVs (preferred)
+  * code from OahIndicatorsNoHealthOahVs (preferred)
   * value[x] ^short = "OAH Indicator component value"
   * value[x] 1..
   * value[x] only CodeableConcept or string or Quantity

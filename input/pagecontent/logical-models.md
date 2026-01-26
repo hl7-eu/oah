@@ -18,6 +18,15 @@ Organizes the collections of indicators used across the project, grouped by them
 - Biological indicators of health risks: diptera, ticks, invasive organisms, birds, diatom teratology, fish, and amphibians.
 - Remote sensing indices: chlorophyll and vegetation/water indices for aquatic/riparian assessment (e.g., NDCI, MCI, NDVI/mNDVI, NDWI/MNDWI/ANDWI, SAVI/TSAVI), moisture/temperature measures (LWCI, GVMI, LST), and urban/built-up indices (BLFEI, BRBA, NBAI, IBI, EBBI, PISI, UI, VIBI).
 
+### HealthIndicators (OAH Health Indicators)
+[HealthIndicators logical model](StructureDefinition-HealthIndicators.html)
+
+Captures health and wellness prevalence indicators for a population.
+- Disease prevalence grouping with individual indicators recorded as percentages per district.
+- Cardiometabolic indicators: high blood pressure, hypertension treatment, obesity, high cholesterol (>=190/240 mg/dl), diabetes and treatment, CVD.
+- Lifestyle and wellbeing indicators: no physical activity, long-term disease presence/absence, BMI bands, mental health issues.
+- Infectious disease prevalence examples: Borrelia burgdorferi, Campylobacter, Chlamydia psittaci, Cryptosporidium, Entamoeba histolytica, Escherichia coli, Giardia, Salmonella, Yersinia enterocolitica.
+
 ### Sample (SampleOah)
 [Sample logical model](StructureDefinition-Sample.html)
 
@@ -39,3 +48,13 @@ Represents an indicator composed of multiple components.
 - Links to the associated `sampleDetails`.
 - Captures `type` of measurement, one or more `date` values, and `performer`.
 - Includes repeating `component` entries, each with its own `type` and `result` (codeable concept, quantity, or string).
+
+### HealthMeasure (OAH Health Measure)
+[HealthMeasure logical model](StructureDefinition-HealthMeasure.html)
+
+Defines a single health and wellness measurement with shared context.
+- Site details: identifiers, name, optional GPS, and site characteristics.
+- Measurement timing: required `dateOrPeriod[x]`.
+- Who performed it: optional `performer[x]` (practitioner role or organization).
+- What is measured and the result: `type` and `result[x]` (codeable concept or quantity).
+- Cohort: required group describing the population measured.

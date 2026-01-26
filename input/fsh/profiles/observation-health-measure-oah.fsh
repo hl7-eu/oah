@@ -8,7 +8,7 @@ Description: "Profile for OneAquaHealth project health and wellbeing measures."
 * status ^comment = "The status of the observation."
 
 * code 1..
-* code from OahIndicatorsVs (preferred) // to be changed with a more appropriate value set when available
+* code from HealthIndicatorsOahVs (preferred) 
 * subject 1.. 
 * subject only Reference(LocationOah)
 * effective[x] 1..
