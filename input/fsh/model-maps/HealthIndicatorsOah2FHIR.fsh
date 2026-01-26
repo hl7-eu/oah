@@ -56,7 +56,7 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #diseasePrevalence.diabetes
-* group[=].element[=].display = "% of people with high blood sugar/diabetes "
+* group[=].element[=].display = "% of people with high blood sugar/diabetes"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto

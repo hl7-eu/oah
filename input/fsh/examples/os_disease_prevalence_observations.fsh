@@ -116,12 +116,12 @@ Usage: #example
 * valueQuantity = 58 '%' "%"
 
 Instance: Obs-OS-no-long-term-disease-Male
-Title: "Observation - Oslo % of people without  long-term disease (Male)"
-Description: "% of people without  long-term disease for Oslo cohort Male (2024)."
+Title: "Observation - Oslo % of people without long-term disease (Male)"
+Description: "% of people without long-term disease for Oslo cohort Male (2024)."
 InstanceOf: ObservationHealthMeasureOah
 Usage: #example
 * status = #final
-* code = TemporaryOahSystem#no-long-term-disease "% of people without  long-term disease"
+* code = TemporaryOahSystem#no-long-term-disease "% of people without long-term disease"
 * subject = Reference(Loc-Nordre-Aker)
 * focus = Reference(Group-OS-Male)
 * effectivePeriod.start = "2024-01-01"
@@ -129,12 +129,12 @@ Usage: #example
 * valueQuantity = 60 '%' "%"
 
 Instance: Obs-OS-no-long-term-disease-Female
-Title: "Observation - Oslo % of people without  long-term disease (Female)"
-Description: "% of people without  long-term disease for Oslo cohort Female (2024)."
+Title: "Observation - Oslo % of people without long-term disease (Female)"
+Description: "% of people without long-term disease for Oslo cohort Female (2024)."
 InstanceOf: ObservationHealthMeasureOah
 Usage: #example
 * status = #final
-* code = TemporaryOahSystem#no-long-term-disease "% of people without  long-term disease"
+* code = TemporaryOahSystem#no-long-term-disease "% of people without long-term disease"
 * subject = Reference(Loc-Nordre-Aker)
 * focus = Reference(Group-OS-Female)
 * effectivePeriod.start = "2024-01-01"
@@ -142,12 +142,12 @@ Usage: #example
 * valueQuantity = 57 '%' "%"
 
 Instance: Obs-OS-no-long-term-disease-All
-Title: "Observation - Oslo % of people without  long-term disease (All)"
-Description: "% of people without  long-term disease for Oslo cohort All (2024)."
+Title: "Observation - Oslo % of people without long-term disease (All)"
+Description: "% of people without long-term disease for Oslo cohort All (2024)."
 InstanceOf: ObservationHealthMeasureOah
 Usage: #example
 * status = #final
-* code = TemporaryOahSystem#no-long-term-disease "% of people without  long-term disease"
+* code = TemporaryOahSystem#no-long-term-disease "% of people without long-term disease"
 * subject = Reference(Loc-Nordre-Aker)
 * focus = Reference(Group-OS-All)
 * effectivePeriod.start = "2024-01-01"
@@ -155,12 +155,12 @@ Usage: #example
 * valueQuantity = 58 '%' "%"
 
 Instance: Obs-OS-no-long-term-disease-Age-18-29
-Title: "Observation - Oslo % of people without  long-term disease (Age-18-29)"
-Description: "% of people without  long-term disease for Oslo cohort Age-18-29 (2024)."
+Title: "Observation - Oslo % of people without long-term disease (Age-18-29)"
+Description: "% of people without long-term disease for Oslo cohort Age-18-29 (2024)."
 InstanceOf: ObservationHealthMeasureOah
 Usage: #example
 * status = #final
-* code = TemporaryOahSystem#no-long-term-disease "% of people without  long-term disease"
+* code = TemporaryOahSystem#no-long-term-disease "% of people without long-term disease"
 * subject = Reference(Loc-Nordre-Aker)
 * focus = Reference(Group-OS-Age-18-29)
 * effectivePeriod.start = "2024-01-01"
@@ -168,12 +168,12 @@ Usage: #example
 * valueQuantity = 60 '%' "%"
 
 Instance: Obs-OS-no-long-term-disease-Age-30-39
-Title: "Observation - Oslo % of people without  long-term disease (Age-30-39)"
-Description: "% of people without  long-term disease for Oslo cohort Age-30-39 (2024)."
+Title: "Observation - Oslo % of people without long-term disease (Age-30-39)"
+Description: "% of people without long-term disease for Oslo cohort Age-30-39 (2024)."
 InstanceOf: ObservationHealthMeasureOah
 Usage: #example
 * status = #final
-* code = TemporaryOahSystem#no-long-term-disease "% of people without  long-term disease"
+* code = TemporaryOahSystem#no-long-term-disease "% of people without long-term disease"
 * subject = Reference(Loc-Nordre-Aker)
 * focus = Reference(Group-OS-Age-30-39)
 * effectivePeriod.start = "2024-01-01"
@@ -181,12 +181,12 @@ Usage: #example
 * valueQuantity = 68 '%' "%"
 
 Instance: Obs-OS-no-long-term-disease-Age-40-49
-Title: "Observation - Oslo % of people without  long-term disease (Age-40-49)"
-Description: "% of people without  long-term disease for Oslo cohort Age-40-49 (2024)."
+Title: "Observation - Oslo % of people without long-term disease (Age-40-49)"
+Description: "% of people without long-term disease for Oslo cohort Age-40-49 (2024)."
 InstanceOf: ObservationHealthMeasureOah
 Usage: #example
 * status = #final
-* code = TemporaryOahSystem#no-long-term-disease "% of people without  long-term disease"
+* code = TemporaryOahSystem#no-long-term-disease "% of people without long-term disease"
 * subject = Reference(Loc-Nordre-Aker)
 * focus = Reference(Group-OS-Age-40-49)
 * effectivePeriod.start = "2024-01-01"
@@ -194,12 +194,12 @@ Usage: #example
 * valueQuantity = 58 '%' "%"
 
 Instance: Obs-OS-no-long-term-disease-Age-50-59
-Title: "Observation - Oslo % of people without  long-term disease (Age-50-59)"
-Description: "% of people without  long-term disease for Oslo cohort Age-50-59 (2024)."
+Title: "Observation - Oslo % of people without long-term disease (Age-50-59)"
+Description: "% of people without long-term disease for Oslo cohort Age-50-59 (2024)."
 InstanceOf: ObservationHealthMeasureOah
 Usage: #example
 * status = #final
-* code = TemporaryOahSystem#no-long-term-disease "% of people without  long-term disease"
+* code = TemporaryOahSystem#no-long-term-disease "% of people without long-term disease"
 * subject = Reference(Loc-Nordre-Aker)
 * focus = Reference(Group-OS-Age-50-59)
 * effectivePeriod.start = "2024-01-01"
@@ -207,12 +207,12 @@ Usage: #example
 * valueQuantity = 57 '%' "%"
 
 Instance: Obs-OS-no-long-term-disease-Age-60-69
-Title: "Observation - Oslo % of people without  long-term disease (Age-60-69)"
-Description: "% of people without  long-term disease for Oslo cohort Age-60-69 (2024)."
+Title: "Observation - Oslo % of people without long-term disease (Age-60-69)"
+Description: "% of people without long-term disease for Oslo cohort Age-60-69 (2024)."
 InstanceOf: ObservationHealthMeasureOah
 Usage: #example
 * status = #final
-* code = TemporaryOahSystem#no-long-term-disease "% of people without  long-term disease"
+* code = TemporaryOahSystem#no-long-term-disease "% of people without long-term disease"
 * subject = Reference(Loc-Nordre-Aker)
 * focus = Reference(Group-OS-Age-60-69)
 * effectivePeriod.start = "2024-01-01"
@@ -220,12 +220,12 @@ Usage: #example
 * valueQuantity = 52 '%' "%"
 
 Instance: Obs-OS-no-long-term-disease-Age-70-plus
-Title: "Observation - Oslo % of people without  long-term disease (Age-70-plus)"
-Description: "% of people without  long-term disease for Oslo cohort Age-70-plus (2024)."
+Title: "Observation - Oslo % of people without long-term disease (Age-70-plus)"
+Description: "% of people without long-term disease for Oslo cohort Age-70-plus (2024)."
 InstanceOf: ObservationHealthMeasureOah
 Usage: #example
 * status = #final
-* code = TemporaryOahSystem#no-long-term-disease "% of people without  long-term disease"
+* code = TemporaryOahSystem#no-long-term-disease "% of people without long-term disease"
 * subject = Reference(Loc-Nordre-Aker)
 * focus = Reference(Group-OS-Age-70-plus)
 * effectivePeriod.start = "2024-01-01"
