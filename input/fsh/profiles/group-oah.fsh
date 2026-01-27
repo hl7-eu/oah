@@ -14,6 +14,6 @@ Description: "Profile for OneAquaHealth person cohorts defined by inclusion and 
 * characteristic.code 1..1
 * characteristic.code from OahCohortCharacteristicCodeVs (extensible)
 * characteristic.value[x] 1..1
-* characteristic.value[x] only CodeableConcept or Quantity or Range or boolean
+* characteristic.value[x] only CodeableConcept or Quantity or Range or boolean or Reference(Location)
 * characteristic.exclude 1..1
 * characteristic.exclude ^short = "True for exclusion criteria; false for inclusion."

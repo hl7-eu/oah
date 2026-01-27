@@ -8,7 +8,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression "% of people with high blood pressure (prevalence)"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN1-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 39 '%' "%"
@@ -21,7 +21,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression "% of people with high blood pressure (prevalence)"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN1-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 20 '%' "%"
@@ -34,7 +34,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression "% of people with high blood pressure (prevalence)"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN2-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 38 '%' "%"
@@ -47,7 +47,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression "% of people with high blood pressure (prevalence)"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN2-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 22 '%' "%"
@@ -60,7 +60,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression "% of people with high blood pressure (prevalence)"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN3-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 31 '%' "%"
@@ -73,7 +73,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression "% of people with high blood pressure (prevalence)"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN3-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 33 '%' "%"
@@ -86,7 +86,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypertension "% of people under treatment for hypertension"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN1-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 44 '%' "%"
@@ -99,7 +99,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypertension "% of people under treatment for hypertension"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN1-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 23 '%' "%"
@@ -112,7 +112,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypertension "% of people under treatment for hypertension"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN2-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 43 '%' "%"
@@ -125,7 +125,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypertension "% of people under treatment for hypertension"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN2-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 31 '%' "%"
@@ -138,7 +138,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypertension "% of people under treatment for hypertension"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN3-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 29 '%' "%"
@@ -151,7 +151,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypertension "% of people under treatment for hypertension"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN3-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 38 '%' "%"
@@ -164,7 +164,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression-treatment "% of people under treatment for high blood pressure"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN1-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 58 '%' "%"
@@ -177,7 +177,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression-treatment "% of people under treatment for high blood pressure"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN1-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 33 '%' "%"
@@ -190,7 +190,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression-treatment "% of people under treatment for high blood pressure"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN2-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 53 '%' "%"
@@ -203,7 +203,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression-treatment "% of people under treatment for high blood pressure"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN2-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 38 '%' "%"
@@ -216,7 +216,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression-treatment "% of people under treatment for high blood pressure"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN3-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 49 '%' "%"
@@ -229,7 +229,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#high-blood-pression-treatment "% of people under treatment for high blood pressure"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN3-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 50 '%' "%"
@@ -242,7 +242,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#obesity "% of people affected from obesity"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN1-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 31 '%' "%"
@@ -255,7 +255,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#obesity "% of people affected from obesity"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN1-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 29 '%' "%"
@@ -268,7 +268,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#obesity "% of people affected from obesity"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN2-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 30 '%' "%"
@@ -281,7 +281,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#obesity "% of people affected from obesity"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN2-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 23 '%' "%"
@@ -294,7 +294,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#obesity "% of people affected from obesity"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN3-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 25 '%' "%"
@@ -307,7 +307,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#obesity "% of people affected from obesity"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN3-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 28 '%' "%"
@@ -320,7 +320,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-190 "% of people with high total cholesterolemia (>=190 mg/dl)"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN1-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 72 '%' "%"
@@ -333,7 +333,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-190 "% of people with high total cholesterolemia (>=190 mg/dl)"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN1-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 64 '%' "%"
@@ -346,7 +346,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-190 "% of people with high total cholesterolemia (>=190 mg/dl)"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN2-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 60 '%' "%"
@@ -359,7 +359,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-190 "% of people with high total cholesterolemia (>=190 mg/dl)"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN2-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 61 '%' "%"
@@ -372,7 +372,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-190 "% of people with high total cholesterolemia (>=190 mg/dl)"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN3-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 63 '%' "%"
@@ -385,7 +385,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-190 "% of people with high total cholesterolemia (>=190 mg/dl)"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN3-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 69 '%' "%"
@@ -398,7 +398,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypercholesterolemia-treatment "% of people under treatment for hypercholesterolemia"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN1-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 10 '%' "%"
@@ -411,7 +411,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypercholesterolemia-treatment "% of people under treatment for hypercholesterolemia"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN1-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 18 '%' "%"
@@ -424,7 +424,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypercholesterolemia-treatment "% of people under treatment for hypercholesterolemia"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN2-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 13 '%' "%"
@@ -437,7 +437,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypercholesterolemia-treatment "% of people under treatment for hypercholesterolemia"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN2-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 26 '%' "%"
@@ -450,7 +450,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypercholesterolemia-treatment "% of people under treatment for hypercholesterolemia"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN3-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 8 '%' "%"
@@ -463,7 +463,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#hypercholesterolemia-treatment "% of people under treatment for hypercholesterolemia"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN3-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 20 '%' "%"
@@ -476,7 +476,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-240 "% of people with high total cholesterolemia (>=240 mg/dl)"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN1-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 13 '%' "%"
@@ -489,7 +489,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-240 "% of people with high total cholesterolemia (>=240 mg/dl)"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN1-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 31 '%' "%"
@@ -502,7 +502,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-240 "% of people with high total cholesterolemia (>=240 mg/dl)"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN2-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 17 '%' "%"
@@ -515,7 +515,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-240 "% of people with high total cholesterolemia (>=240 mg/dl)"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN2-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 28 '%' "%"
@@ -528,7 +528,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-240 "% of people with high total cholesterolemia (>=240 mg/dl)"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN3-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 20 '%' "%"
@@ -541,7 +541,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cholesterolemia-240 "% of people with high total cholesterolemia (>=240 mg/dl)"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN3-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 21 '%' "%"
@@ -554,7 +554,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes "% of people with high blood sugar/diabetes"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN1-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 7.4 '%' "%"
@@ -567,7 +567,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes "% of people with high blood sugar/diabetes"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN1-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 1.1 '%' "%"
@@ -580,7 +580,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes "% of people with high blood sugar/diabetes"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN2-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 8.3 '%' "%"
@@ -593,7 +593,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes "% of people with high blood sugar/diabetes"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN2-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 2.6 '%' "%"
@@ -606,7 +606,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes "% of people with high blood sugar/diabetes"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN3-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 5.9 '%' "%"
@@ -619,7 +619,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes "% of people with high blood sugar/diabetes"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN3-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 2.9 '%' "%"
@@ -632,7 +632,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes-treatment "% of people under treatment for diabetes"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN1-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 1.4 '%' "%"
@@ -645,7 +645,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes-treatment "% of people under treatment for diabetes"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN1-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 1.2 '%' "%"
@@ -658,7 +658,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes-treatment "% of people under treatment for diabetes"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN2-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 2.8 '%' "%"
@@ -671,7 +671,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes-treatment "% of people under treatment for diabetes"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN2-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 0.7 '%' "%"
@@ -684,7 +684,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes-treatment "% of people under treatment for diabetes"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN3-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 4 '%' "%"
@@ -697,7 +697,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#diabetes-treatment "% of people under treatment for diabetes"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN3-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 0.8 '%' "%"
@@ -710,7 +710,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cvd "% of people affected from CVD"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN1-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 8.4 '%' "%"
@@ -723,7 +723,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cvd "% of people affected from CVD"
 * subject = Reference(Loc-Benevento-01)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN1-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 2 '%' "%"
@@ -736,7 +736,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cvd "% of people affected from CVD"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN2-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 6 '%' "%"
@@ -749,7 +749,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cvd "% of people affected from CVD"
 * subject = Reference(Loc-Benevento-02)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN2-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 2.2 '%' "%"
@@ -762,7 +762,7 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cvd "% of people affected from CVD"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Male-Age-35-74)
+* focus = Reference(Group-BN-BN3-Male-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 7.1 '%' "%"
@@ -775,7 +775,8 @@ Usage: #example
 * status = #final
 * code = TemporaryOahSystem#cvd "% of people affected from CVD"
 * subject = Reference(Loc-Benevento-03)
-* focus = Reference(Group-BN-Female-Age-35-74)
+* focus = Reference(Group-BN-BN3-Female-Age-35-74)
 * effectivePeriod.start = "2024-01-01"
 * effectivePeriod.end = "2024-12-31"
 * valueQuantity = 1.5 '%' "%"
+
