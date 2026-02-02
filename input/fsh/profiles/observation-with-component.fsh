@@ -1,7 +1,7 @@
 Profile: ObservationWithCompOah
 Parent:  ObservationIndicatorsOah
 Id: observation-with-component-oah
-Title: "Observation: OAH indicators with Components"
+Title: "Observation: OAH Indicators with Components"
 Description: "Profile for OneAquaHealth project macrophytes observations."
 
 * code from ObservationTypeWithComponentOahVs (extensible)
