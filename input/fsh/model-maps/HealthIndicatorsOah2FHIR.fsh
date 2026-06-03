@@ -50,7 +50,7 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #diseasePrevalence.diabetes
-* group[=].element[=].display = "% of people with high blood sugar/diabetes "
+* group[=].element[=].display = "% of people with high blood sugar/diabetes"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
@@ -210,7 +210,7 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #causesOfDeath.otherCirculatorySystem 
-* group[=].element[=].display = "% of deaths due to other diseases of the circulatory system "
+* group[=].element[=].display = "% of deaths due to other diseases of the circulatory system"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
@@ -245,7 +245,7 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #causesOfDeath.healthcareSensitiveCauses 
-* group[=].element[=].display = "% of deaths due to Healthcare-Sensitive Causes "
+* group[=].element[=].display = "% of deaths due to Healthcare-Sensitive Causes"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
@@ -320,8 +320,7 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #hospitalization.avoidablePrimaryPrevention
-* group[=].element[=].display = "% of hospitalizations avoidable by primary prevention
-"
+* group[=].element[=].display = "% of hospitalizations avoidable by primary prevention"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto

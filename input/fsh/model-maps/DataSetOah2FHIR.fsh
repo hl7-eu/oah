@@ -108,11 +108,11 @@ Usage: #definition
 * group[=].element[=].target.code = #Library.extension[licence]
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[+].code = #copyright
+/* * group[=].element[+].code = #copyright
 * group[=].element[=].display = "Data set copyright"
 * group[=].element[=].target.code = #extension[copyrightLabel].valueString
 * group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.equivalence = #relatedto */
 * group[=].element[+].code = #copyright
 * group[=].element[=].display = "Data set copyright"
 * group[=].element[=].target.code = #Library.copyright
