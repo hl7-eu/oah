@@ -2,3 +2,5 @@
 This HL7 FHIR IG intends to support provide support for the OneAquaHealth project aiming to improve the sustainability and integrity of freshwater ecosystems in urban environments.
 
 Details in https://www.oneaquahealth.eu/
+
+CI Build: https://build.fhir.org/ig/hl7-eu/oah
