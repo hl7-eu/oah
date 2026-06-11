@@ -43,4 +43,10 @@ This resource is used to describe the data set of indicators that are used in th
   * ^short = "Data Set copyright"
 * content 0..*
   * ^short = "Data Set content"
+* approvalDate 0..1
+  * ^short = "Data Set date of approval"
+* lastReviewDate 0..1
+  * ^short = "Data Set date of last review"
+* dataRequirement 0..*
+  * ^short = "Data referenced by this library"
 

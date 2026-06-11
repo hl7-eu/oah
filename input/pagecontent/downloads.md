@@ -22,10 +22,6 @@ There are also specific packages for the R4 and R4B FHIR specifications:
 
 - [R4 NPM Package](package.r4.tgz)
 
-#### R4B-specific NPM Package and Definitions
-
-- [R4B NPM Package](package.r4b.tgz)
-
 ### Examples
 
 All of the examples that are used in this Implementation Guide are available for download:

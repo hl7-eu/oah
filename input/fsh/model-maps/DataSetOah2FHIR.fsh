@@ -120,7 +120,7 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #DataSet.size
 * group[=].element[=].display = "Data set size"
-* group[=].element[=].target.code = ##Library.extension:size
+* group[=].element[=].target.code = #Library.extension:size
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #DataSet.numberOfRecords

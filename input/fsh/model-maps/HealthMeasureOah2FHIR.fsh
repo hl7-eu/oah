@@ -46,7 +46,7 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.comment = "It could be a Person or an Organization"
-* group[=].element[+].code = #HealthMeasure.perfomer[x]
+* group[=].element[+].code = #HealthMeasure.performer[x]
 * group[=].element[=].display = "Performer"
 * group[=].element[=].target.code = #Observation.performer
 * group[=].element[=].target.display = ""
