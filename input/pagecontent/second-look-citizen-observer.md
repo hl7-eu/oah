@@ -1,7 +1,7 @@
 This page is a proposal from Second Look, a team in the OneAquaHealth hackathon (Berkeley). File paths below are in our repository, https://github.com/alejandro-publius/second-look, which opens to the public on 2026-09-30. The FSH it describes is in `input/fsh/second-look/` in this pull request.
 
 
-For the authors of hl7-eu/oah. Written by the Second Look team (Berkeley, a follower city). One page, plain words. Alex opens the pull request; this file is the text behind it.
+For the authors of hl7-eu/oah. Written by the Second Look team in Berkeley, which ran your five steps for a follower city on its creeks; the city has not adopted the method. One page, plain words. Alex opens the pull request; this file is the text behind it.
 
 ## What we are actually asking, first
 

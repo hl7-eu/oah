@@ -1,4 +1,4 @@
-// One worked visit at Strawberry Creek, Berkeley (a follower city). Coordinates are for the campus reach.
+// One worked visit at Strawberry Creek, Berkeley, made by hand as an example. Coordinates are for the campus reach.
 Instance: sl-org
 InstanceOf: Organization
 Title: "Second Look project"
