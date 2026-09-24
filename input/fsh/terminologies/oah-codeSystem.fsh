@@ -40,7 +40,7 @@ Description: """This is a temporary code system defined to collect concepts expe
 * #herbaceous "Herbaceous (height < 1.5m)" "Herbaceous (height < 1.5m)"
 
 * #microbiomes "Microbiomes/Biofilms" "Microbiomes/Biofilms" 
-* #morophology "Morphology of the streams" "Morphology of the streams – habitat, shape of the channel and valley, substrate in the channel and margins" 
+* #morphology "Morphology of the streams" "Morphology of the streams – habitat, shape of the channel and valley, substrate in the channel and margins" 
 * #hydrology "Hydrology of the stream" "Hydrology of the stream – flow type, diversity of flow types, longitudinal connectivity, runoff" 
 * #LandUse "Land use in the margins" "Land use in the margins" 
 * #nutrients "Nutrients" "Nutrients (Nitrates, nitrites, ammonia, phosphates, total P, total N, …)" 
