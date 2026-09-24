@@ -47,6 +47,8 @@ pages:
 #    title: Examples
   downloads.md:
     title: Downloads
+  second-look-citizen-observer.md:
+    title: "Proposal and example: a citizen observer's test score (Second Look)"
   logical-models.md:
     title: Logical Models
 #  implementation.md:
