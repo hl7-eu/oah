@@ -8,4 +8,7 @@ Description: """This Value Set is used to identify the observation types with th
 * TemporaryOahSystem#macrophytes "Macrophytes"
 * TemporaryOahSystem#riparianVegetation "Riparian Vegetation"
 * TemporaryOahSystem#nutrients "Nutrients"
+* TemporaryOahSystem#microbialDiversity "Microbial diversity"
+* TemporaryOahSystem#pathogens "Pathogens"
+* TemporaryOahSystem#antibioticResistanceGenes "Antibiotic resistance genes (ARGs)"
 

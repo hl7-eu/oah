@@ -12,7 +12,10 @@ Captures the metadata for a OneAquaHealth data set, including stewardship and ac
 [IndicatorsOah logical model](StructureDefinition-IndicatorsOah.html)
 
 Organizes the collections of indicators used across the project, grouped by theme.
-- Biological quality: macroinvertebrates, diatoms, fish, macrophytes, riparian vegetation, and microbiomes.
+- Biological quality: macroinvertebrates, diatoms, fish, macrophytes, riparian vegetation, microbiomes, microbial diversity, pathogens, and antibiotic resistance genes (ARGs).
+  - Microbial diversity: richness, Shannon and Simpson diversity, Pielou evenness, and beta diversity of microbial communities, derived from environmental DNA (16S/18S rRNA marker genes or shotgun metagenomics).
+  - Pathogens: presence/absence or abundance of specific pathogens (culture, qPCR, metagenomics/metabarcoding), relative abundance of pathogenic taxa, and an infectious health risk index (0 to 1) combining pathogen richness, abundance, and severity.
+  - Antibiotic resistance genes: resistance genes quantified by qPCR or metagenomics, expressed as gene copies per volume of water or as relative abundance.
 - Hydromorphological quality: morphology, hydrology, and land use aspects that influence habitat and connectivity.
 - Water quality: nutrients, pH, dissolved oxygen, temperature, dissolved/suspended solids, conductivity, pharmaceuticals, foam/colour/smell, and coliforms.
 - Biological indicators of health risks: diptera, ticks, invasive organisms, birds, diatom teratology, fish, and amphibians.
