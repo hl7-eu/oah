@@ -39,7 +39,23 @@ Description: """This is a temporary code system defined to collect concepts expe
 * #bushes "Bushes (height (1.5-3m)" "Bushes (height (1.5-3m)"
 * #herbaceous "Herbaceous (height < 1.5m)" "Herbaceous (height < 1.5m)"
 
-* #microbiomes "Microbiomes/Biofilms" "Microbiomes/Biofilms" 
+* #microbiomes "Microbiomes/Biofilms" "Microbiomes/Biofilms"
+
+* #microbialDiversity "Microbial diversity" "Variety of microorganisms (bacteria, archaea, fungi and micro-eukaryotes) in water, sediment or biofilms, assessed from environmental DNA (16S/18S rRNA marker genes or shotgun metagenomics)"
+* #species-richness "Species richness" "Number of microbial taxa in the sample"
+* #shannon-index "Shannon diversity index (H)" "Shannon diversity index H = -sum(pi ln pi), accounting for taxa abundance and evenness"
+* #simpson-index "Simpson diversity index (S)" "Simpson diversity index, based on sum(pi^2)"
+* #pielou-evenness "Pielou evenness (J)" "Pielou evenness J = H / ln(richness)"
+* #beta-diversity "Beta diversity" "Differences in composition between microbial communities"
+
+* #pathogens "Pathogens" "Detection of microorganisms (bacteria, viruses, fungi or protozoa) that can cause disease in humans, domestic animals or wildlife"
+* #pathogen-relative-abundance "Pathogen relative abundance" "Relative abundance of pathogenic taxa within the microbial community (pathogen number / total microbe number x 100)"
+* #pathogen-richness "Pathogen richness" "Number of pathogenic taxa detected"
+* #pathogen-risk-index "Pathogen infectious health risk index" "Infectious health risk index between 0 and 1: (pathogen richness + pathogen abundance x severity) / 2"
+
+* #antibioticResistanceGenes "Antibiotic resistance genes (ARGs)" "Antibiotic resistance genes indicating the presence of bacteria able to resist antibiotic treatment"
+* #arg-gene-copies "ARG gene copies per volume" "Antibiotic resistance gene copies per volume of water"
+* #arg-relative-abundance "ARG relative abundance" "Relative abundance of antibiotic resistance genes"
 * #morophology "Morphology of the streams" "Morphology of the streams – habitat, shape of the channel and valley, substrate in the channel and margins" 
 * #hydrology "Hydrology of the stream" "Hydrology of the stream – flow type, diversity of flow types, longitudinal connectivity, runoff" 
 * #LandUse "Land use in the margins" "Land use in the margins" 
@@ -57,7 +73,7 @@ Description: """This is a temporary code system defined to collect concepts expe
 * #ticks "Ticks" "Ticks" 
 * #invasiveOrganisms "Invasive invertebrate, plants and fish" "Invasive invertebrate, plants and fish" 
 * #birds "Birds" "Birds" 
-* #diatomTratology "Diatom teratology" "Diatom teratology (deformities)" 
+* #diatomTeratology "Diatom teratology" "Diatom teratology (deformities)" 
 * #fish "Fish" "Fish" 
 * #amphibians "Amphibians" "Amphibians" 
 

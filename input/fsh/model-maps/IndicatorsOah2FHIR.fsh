@@ -155,12 +155,12 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "where Observation.code is 'birds'"
-* group[=].element[+].code = #IndicatorsOah.bioRisk.diatomTratology
+* group[=].element[+].code = #IndicatorsOah.bioRisk.diatomTeratology
 * group[=].element[=].display = "Diatom teratology"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'diatomTratology'"
+* group[=].element[=].target.comment = "where Observation.code is 'diatomTeratology'"
 * group[=].element[+].code = #IndicatorsOah.bioRisk.fish
 * group[=].element[=].display = "Fish"
 * group[=].element[=].target.code = #Observation
@@ -178,175 +178,186 @@ Usage: #definition
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
 * group[=].element[+].code = #IndicatorsOah.remote.ndci
 * group[=].element[=].display = "Normalized Difference Chlorophyll Index (NDCI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'ndci'"
 * group[=].element[+].code = #IndicatorsOah.remote.mci
 * group[=].element[=].display = "Maximum Chlorophyll Index (MCI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'mci'"
 * group[=].element[+].code = #IndicatorsOah.remote.bwdrvi
 * group[=].element[=].display = "Blue Wide Dynamic Range Vegetation Index (BWDRVI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'bwdrvi'"
 * group[=].element[+].code = #IndicatorsOah.remote.evi
 * group[=].element[=].display = "Enhanced Vegetation Index (EVI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'evi'"
+* group[=].element[+].code = #IndicatorsOah.remote.evi2
+* group[=].element[=].display = "Enhanced Vegetation Index  2 (EVI2)"
+* group[=].element[=].target.code = #Observation
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "where Observation.code is 'evi2'"
 * group[=].element[+].code = #IndicatorsOah.remote.ndvi
 * group[=].element[=].display = "Normalized Difference Vegetation Index (NDVI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'ndvi'"
+* group[=].element[+].code = #IndicatorsOah.remote.mndvi
+* group[=].element[=].display = "Modified Normalized Difference Vegetation Index (mNDVI)"
+* group[=].element[=].target.code = #Observation
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "where Observation.code is 'mndvi'"
 * group[=].element[+].code = #IndicatorsOah.remote.ndwi
 * group[=].element[=].display = "Normalized Difference Water Index (NDWI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'ndwi'"
 * group[=].element[+].code = #IndicatorsOah.remote.savi
 * group[=].element[=].display = "Soil Adjusted Vegetation Index (SAVI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'savi'"
 * group[=].element[+].code = #IndicatorsOah.remote.tsavi
 * group[=].element[=].display = "Transformed Soil Adjusted Vegetation Index (TSAVI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'tsavi'"
 * group[=].element[+].code = #IndicatorsOah.remote.lwci
 * group[=].element[=].display = "Leaf Water Content Index (LWCI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'lwci'"
 * group[=].element[+].code = #IndicatorsOah.remote.gvmi
 * group[=].element[=].display = "Global Vegetation Moisture Index (GVMI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'gvmi'"
 * group[=].element[+].code = #IndicatorsOah.remote.gemi
 * group[=].element[=].display = "Global Environment Monitoring Index (GEMI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'gemi'"
 * group[=].element[+].code = #IndicatorsOah.remote.lai
 * group[=].element[=].display = "Leaf Area Index (LAI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'lai'"
 * group[=].element[+].code = #IndicatorsOah.remote.glai
 * group[=].element[=].display = "Green Leaf Area Index (GLAI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'glai'"
 * group[=].element[+].code = #IndicatorsOah.remote.fapar
 * group[=].element[=].display = "Fraction of Absorbed Photosynthetically Active Radiation (FAPAR)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'fapar'"
 * group[=].element[+].code = #IndicatorsOah.remote.mndwi
 * group[=].element[=].display = "Modified Normalized Difference Water Index (MNDWI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'mndwi'"
 * group[=].element[+].code = #IndicatorsOah.remote.andwi
 * group[=].element[=].display = "Augmented Normalized Difference Water Index (ANDWI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'andwi'"
 * group[=].element[+].code = #IndicatorsOah.remote.s2wi
 * group[=].element[=].display = "Sentinel-2 Water Index (S2WI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 's2wi'"
 * group[=].element[+].code = #IndicatorsOah.remote.lswi
 * group[=].element[=].display = "Land Surface Water Index (LSWI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'lswi'"
 * group[=].element[+].code = #IndicatorsOah.remote.ndviMndwiModel
-* group[=].element[=].display = "NDVI�MNDWI Model"
+* group[=].element[=].display = "NDVI–MNDWI Model"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'ndvi-mndwi-model'"
 * group[=].element[+].code = #IndicatorsOah.remote.lst
 * group[=].element[=].display = "Land Surface Temperature (LST)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'lst'"
 * group[=].element[+].code = #IndicatorsOah.remote.blfei
 * group[=].element[=].display = "Built-Up Land Features Extraction Index (BLFEI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'blfei'"
 * group[=].element[+].code = #IndicatorsOah.remote.brba
 * group[=].element[=].display = "Band Ratio for Built-up Area (BRBA)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'brba'"
 * group[=].element[+].code = #IndicatorsOah.remote.nbai
 * group[=].element[=].display = "Normalized Built-up Area Index (NBAI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'nbai'"
 * group[=].element[+].code = #IndicatorsOah.remote.ibi
 * group[=].element[=].display = "Index-Based Built-Up Index (IBI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'ibi'"
 * group[=].element[+].code = #IndicatorsOah.remote.ebbi
 * group[=].element[=].display = "Enhanced Built-Up and Bareness Index (EBBI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'ebbi'"
 * group[=].element[+].code = #IndicatorsOah.remote.pisi
 * group[=].element[=].display = "Perpendicular Impervious Surface Index (PISI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'pisi'"
 * group[=].element[+].code = #IndicatorsOah.remote.ui
 * group[=].element[=].display = "Urban Index (UI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'ui'"
 * group[=].element[+].code = #IndicatorsOah.remote.vibi
 * group[=].element[=].display = "Vegetation Index Built-up Index (VIBI)"
 * group[=].element[=].target.code = #Observation
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "where Observation.code is 'amphibians'"
+* group[=].element[=].target.comment = "where Observation.code is 'vibi'"
 * group[+].source = "http://hl7.eu/fhir/ig/oah/StructureDefinition/IndicatorsOah"
 * group[=].target = "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-with-component-oah"
 * group[=].element[+].code = #IndicatorsOah.biological.macrophytes
@@ -361,3 +372,21 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "where Observation.code is 'riparianVegetation'.Multimple results are recorded for this indicator."
+* group[=].element[+].code = #IndicatorsOah.biological.microbialDiversity
+* group[=].element[=].display = "Microbial diversity"
+* group[=].element[=].target.code = #Observation
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "where Observation.code is 'microbialDiversity'. Each diversity metric (e.g. species richness, Shannon, Simpson, evenness, beta diversity) is recorded as a component."
+* group[=].element[+].code = #IndicatorsOah.biological.pathogens
+* group[=].element[=].display = "Pathogens"
+* group[=].element[=].target.code = #Observation
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "where Observation.code is 'pathogens'. Presence/absence or abundance of each pathogen, the relative abundance of pathogenic taxa and the pathogen risk index are recorded as components."
+* group[=].element[+].code = #IndicatorsOah.biological.antibioticResistanceGenes
+* group[=].element[=].display = "Antibiotic resistance genes (ARGs)"
+* group[=].element[=].target.code = #Observation
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "where Observation.code is 'antibioticResistanceGenes'. The abundance of each resistance gene (gene copies per volume of water or relative abundance) is recorded as a component."
